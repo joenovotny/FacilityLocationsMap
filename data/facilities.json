@@ -2,7 +2,7 @@
   "metadata": {
     "sourceFile": "Strategic_End_User_Facilities_Bottler_Expansion_v2.xlsx",
     "sourceSheet": "Master Facilities v2",
-    "generatedAt": "2026-08-10T17:21:28-04:00",
+    "generatedAt": "2026-08-10T17:24:39-04:00",
     "totalRecords": 257,
     "mappedRecords": 256,
     "unmappedRecords": 1
@@ -3499,7 +3499,7 @@
       "latitude": 33.453774403395,
       "longitude": -112.375377418495,
       "mapped": true,
-      "ace": "South",
+      "ace": "West",
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.thecampbellscompany.com/contact/",
       "researchNotes": null,
