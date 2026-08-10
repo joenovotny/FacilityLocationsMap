@@ -30,12 +30,13 @@ button,select { font:inherit; }
 .clear-filter { margin-top:16px; padding:8px 0; color:#77c8ec; background:transparent; border:0; cursor:pointer; }
 .map-panel { position:relative; min-width:0; overflow:hidden; }
 #map { position:absolute; inset:57px 0 0; }
-.filters { position:absolute; inset:0 0 auto 0; z-index:4; height:57px; display:grid; grid-template-columns:130px repeat(5,minmax(120px,1fr)) 74px; align-items:center; gap:9px; padding:7px 14px; background:rgba(248,249,250,.95); box-shadow:0 2px 8px rgba(0,29,53,.18); }
+.filters { position:absolute; inset:0 0 auto 0; z-index:4; height:57px; display:grid; grid-template-columns:105px repeat(6,minmax(92px,1fr)) 68px; align-items:center; gap:7px; padding:7px 10px; background:rgba(248,249,250,.95); box-shadow:0 2px 8px rgba(0,29,53,.18); }
 .filters h2 { margin:0; color:#13253a; font-size:15px; text-transform:uppercase; }
 .filters label { min-width:0; }
 .filters select { width:100%; min-width:0; padding:9px 30px 9px 10px; color:#10223a; background:#f7f8fa; border:1px solid #c7ced5; border-radius:5px; font-size:12px; }
 .reset-button { padding:10px 11px; color:#fff; text-transform:uppercase; background:linear-gradient(#073651,#001d35); border:0; border-radius:4px; cursor:pointer; font-size:12px; }
 .map-status { position:absolute; left:20px; bottom:12px; z-index:3; padding:7px 10px; color:#17334d; background:rgba(235,246,252,.92); border-radius:3px; font-size:11px; }
+.map-status-warning { color:#572700; background:rgba(255,239,210,.96); border-left:4px solid var(--orange); }
 .kpis { position:absolute; left:29px; right:78px; bottom:55px; z-index:3; min-height:92px; display:grid; grid-template-columns:repeat(4,1fr); color:#fff; background:linear-gradient(100deg,rgba(0,29,53,.97),rgba(0,20,39,.97)); border-radius:5px; box-shadow:0 5px 15px rgba(0,29,53,.22); }
 .kpis div { display:grid; place-content:center; padding:12px 18px; text-align:center; border-right:1px solid rgba(255,255,255,.2); }
 .kpis div:last-child { border-right:0; }
@@ -51,6 +52,6 @@ button,select { font:inherit; }
 .details-panel a { display:inline-block; margin-top:15px; color:#087eae; font-size:13px; font-weight:700; }
 .maplibregl-ctrl-top-right { top:70px; }
 
-@media(max-width:1050px){ .filters{grid-template-columns:90px repeat(5,minmax(92px,1fr)) 64px;gap:5px;padding-inline:8px}.filters h2{font-size:12px}.filters select{font-size:11px;padding-inline:7px}.app-shell{grid-template-columns:285px}.account-item{grid-template-columns:62px minmax(0,1fr) auto}.account-logo{width:60px}.kpis{right:58px} }
+@media(max-width:1050px){ .filters{grid-template-columns:70px repeat(6,minmax(70px,1fr)) 58px;gap:4px;padding-inline:6px}.filters h2{font-size:11px}.filters select{font-size:10px;padding-inline:5px}.app-shell{grid-template-columns:285px}.account-item{grid-template-columns:62px minmax(0,1fr) auto}.account-logo{width:60px}.kpis{right:58px} }
 @media(max-width:800px){ html,body{height:auto}.site-header{height:auto;min-height:82px;padding:11px 14px}.brand-name{display:none}.app-shell{height:auto;min-height:0;display:flex;flex-direction:column}.sidebar{max-height:330px}.accounts{padding:16px}.map-panel{height:720px}.filters{height:auto;grid-template-columns:1fr 1fr;position:relative;padding:10px}.filters h2{grid-column:1/-1}.filters .reset-button{grid-column:1/-1}.filters label>span{position:static;width:auto;height:auto;margin:0;clip:auto;display:block;color:#435363;font-size:10px}.filters select{margin-top:3px;padding:8px}#map{inset:225px 0 0}.maplibregl-ctrl-top-right{top:235px}.kpis{left:10px;right:10px;bottom:45px;grid-template-columns:1fr 1fr}.kpis div{padding:8px}.map-status{left:10px}.details-panel{top:240px}.header-title h1{font-size:19px}.header-title p{font-size:12px} }
 @media(max-width:460px){ .site-header{align-items:flex-start}.brand{display:none}.account-item{grid-template-columns:70px minmax(0,1fr) auto}.map-panel{height:780px}.filters{grid-template-columns:1fr}#map{inset:382px 0 0}.maplibregl-ctrl-top-right{top:390px}.details-panel{top:395px;max-height:340px}.kpis{bottom:42px}.kpis strong{font-size:20px}.kpis span{font-size:10px} }

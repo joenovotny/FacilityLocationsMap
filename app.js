@@ -8,7 +8,8 @@ const filterKeys = {
   parentFilter: "ultimateParent",
   entityFilter: "operatingEntity",
   typeFilter: "facilityType",
-  countryFilter: "country"
+  countryFilter: "country",
+  aceFilter: "ace"
 };
 
 const byId = (id) => document.getElementById(id);
@@ -76,6 +77,13 @@ function renderLegend() {
       image.replaceWith(fallback);
     }, { once: true });
     button.addEventListener("click", () => {
+      const mappedForAccount = state.facilities.filter((item) => item.ultimateParent === parent && item.mapped).length;
+      if (!mappedForAccount) {
+        byId("mapStatus").textContent = `${counts.get(parent)} ${parent} facilities are in Excel, but none has supplied latitude/longitude. The current map remains visible.`;
+        byId("mapStatus").classList.add("map-status-warning");
+        return;
+      }
+      byId("mapStatus").classList.remove("map-status-warning");
       byId("parentFilter").value = byId("parentFilter").value === parent ? "" : parent;
       applyFilters();
     });
@@ -119,6 +127,7 @@ function updateKpis() {
 }
 
 function applyFilters() {
+  byId("mapStatus").classList.remove("map-status-warning");
   state.filtered = state.facilities.filter((facility) => Object.entries(filterKeys).every(([id, key]) => !byId(id).value || value(facility, key) === byId(id).value));
   updateKpis();
   renderLegend();
@@ -157,17 +166,10 @@ function initializeMap() {
   state.map.addControl(new maplibregl.NavigationControl(), "top-right");
   state.map.addControl(new maplibregl.FullscreenControl(), "top-right");
   state.map.on("load", () => {
-    state.map.addSource("facilities", { type: "geojson", data: asGeoJson(state.filtered), cluster: true, clusterMaxZoom: 12, clusterRadius: 48 });
-    state.map.addLayer({ id: "clusters", type: "circle", source: "facilities", filter: ["has", "point_count"], paint: { "circle-color": ["step", ["get", "point_count"], "#00a7d3", 10, "#0067a8", 30, "#072b49"], "circle-radius": ["step", ["get", "point_count"], 18, 10, 23, 30, 29], "circle-stroke-width": 3, "circle-stroke-color": "#ffffff" } });
-    state.map.addLayer({ id: "cluster-count", type: "symbol", source: "facilities", filter: ["has", "point_count"], layout: { "text-field": ["get", "point_count_abbreviated"], "text-font": ["Noto Sans Bold"], "text-size": 12 }, paint: { "text-color": "#ffffff" } });
-    state.map.addLayer({ id: "facility-pins", type: "circle", source: "facilities", filter: ["!", ["has", "point_count"]], paint: { "circle-color": ["get", "color"], "circle-radius": 8, "circle-stroke-width": 2.5, "circle-stroke-color": "#ffffff" } });
-    state.map.on("click", "clusters", async (event) => {
-      const feature = state.map.queryRenderedFeatures(event.point, { layers: ["clusters"] })[0];
-      const zoom = await state.map.getSource("facilities").getClusterExpansionZoom(feature.properties.cluster_id);
-      state.map.easeTo({ center: feature.geometry.coordinates, zoom });
-    });
+    state.map.addSource("facilities", { type: "geojson", data: asGeoJson(state.filtered) });
+    state.map.addLayer({ id: "facility-pins", type: "circle", source: "facilities", paint: { "circle-color": ["get", "color"], "circle-radius": 8, "circle-stroke-width": 2.5, "circle-stroke-color": "#ffffff" } });
     state.map.on("click", "facility-pins", (event) => showDetails(event.features[0].properties));
-    ["clusters", "facility-pins"].forEach((layer) => {
+    ["facility-pins"].forEach((layer) => {
       state.map.on("mouseenter", layer, () => { state.map.getCanvas().style.cursor = "pointer"; });
       state.map.on("mouseleave", layer, () => { state.map.getCanvas().style.cursor = ""; });
     });

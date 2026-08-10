@@ -1,6 +1,6 @@
 # Strategic Facility Locations Map
 
-A static GitHub Pages app built with MapLibre GL JS and OpenFreeMap. It uses no paid map or geocoding APIs and never creates coordinates.
+A static GitHub Pages app built with MapLibre GL JS and OpenFreeMap. It uses no paid map or geocoding APIs and never creates coordinates. Every facility with supplied coordinates is rendered as an individual, unclustered map pin.
 
 ## Update the data
 
@@ -28,4 +28,3 @@ Then visit `http://localhost:8000`.
 ## GitHub Pages
 
 In the repository settings, choose **Pages → Deploy from a branch**, then select the `main` branch and `/ (root)`. The checked-in JSON makes the site static; rerun the converter and commit the new JSON whenever Excel changes.
-
