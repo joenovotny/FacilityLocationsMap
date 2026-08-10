@@ -93,12 +93,36 @@ function renderLegend() {
 }
 
 function asGeoJson(items) {
+  const mapped = items.filter((item) => item.mapped);
+  const groups = new Map();
+  mapped.forEach((item) => {
+    const key = `${item.latitude.toFixed(6)},${item.longitude.toFixed(6)}`;
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(item);
+  });
+  const displayCoordinates = new Map();
+  groups.forEach((group) => {
+    group.sort((a, b) => a.id.localeCompare(b.id));
+    group.forEach((item, index) => {
+      if (group.length === 1) {
+        displayCoordinates.set(item.id, [item.longitude, item.latitude]);
+        return;
+      }
+      const angle = (Math.PI * 2 * index) / group.length;
+      const radius = 0.018;
+      const longitudeScale = Math.max(Math.cos(item.latitude * Math.PI / 180), 0.35);
+      displayCoordinates.set(item.id, [
+        item.longitude + (Math.cos(angle) * radius) / longitudeScale,
+        item.latitude + Math.sin(angle) * radius
+      ]);
+    });
+  });
   return {
     type: "FeatureCollection",
-    features: items.filter((item) => item.mapped).map((item) => ({
+    features: mapped.map((item) => ({
       type: "Feature",
       id: item.id,
-      geometry: { type: "Point", coordinates: [item.longitude, item.latitude] },
+      geometry: { type: "Point", coordinates: displayCoordinates.get(item.id) },
       properties: { ...item, color: colorFor(item.ultimateParent) }
     }))
   };
@@ -122,7 +146,7 @@ function updateKpis() {
   byId("kpiCountries").textContent = unique(state.filtered, "country").length.toLocaleString();
   const active = Object.keys(filterKeys).filter((id) => byId(id).value).length;
   byId("activeFilterCount").textContent = active ? `${active} active` : "All records";
-  byId("mapStatus").textContent = `${mapped.toLocaleString()} mapped of ${state.filtered.length.toLocaleString()} filtered facilities · Rows without supplied coordinates are not plotted`;
+  byId("mapStatus").textContent = `${mapped.toLocaleString()} mapped of ${state.filtered.length.toLocaleString()} filtered facilities · Shared city-center pins are spread slightly for visibility`;
   byId("headerSummary").textContent = `${state.filtered.length.toLocaleString()} Facilities Across ${unique(state.filtered, "ultimateParent").length.toLocaleString()} Strategic Accounts`;
 }
 
@@ -146,7 +170,9 @@ function showDetails(item) {
     ["Address", address],
     ["ACE", item.ace],
     ["Verification", item.verificationStatus],
-    ["Research notes", item.researchNotes]
+    ["Research notes", item.researchNotes],
+    ["Coordinate quality", item.coordinateQuality],
+    ["Coordinate source", item.coordinateMethod]
   ];
   byId("detailList").innerHTML = fields.filter(([, fieldValue]) => fieldValue).map(([label, fieldValue]) => `<dt>${escapeHtml(label)}</dt><dd>${escapeHtml(fieldValue)}</dd>`).join("");
   const source = byId("detailSource");

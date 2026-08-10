@@ -50,6 +50,14 @@ def main():
     if SHEET_NAME not in workbook.sheetnames:
         raise SystemExit(f"Missing required sheet: {SHEET_NAME}")
     sheet = workbook[SHEET_NAME]
+    coordinate_audit = {}
+    if "Coordinate Audit" in workbook.sheetnames:
+        audit_rows = workbook["Coordinate Audit"].iter_rows(values_only=True)
+        audit_headers = [clean(value) for value in next(audit_rows)]
+        for audit_values in audit_rows:
+            audit_item = dict(zip(audit_headers, audit_values))
+            if audit_item.get("Excel Row") is not None:
+                coordinate_audit[int(audit_item["Excel Row"])] = audit_item
     rows = sheet.iter_rows(values_only=True)
     headers = [clean(value) for value in next(rows)]
     missing = [column for column in REQUIRED_COLUMNS if column not in headers]
@@ -64,6 +72,7 @@ def main():
         lat = coordinate(raw.get("Latitude"), -90, 90)
         lon = coordinate(raw.get("Longitude"), -180, 180)
         mapped = lat is not None and lon is not None
+        audit = coordinate_audit.get(excel_row, {})
         facilities.append({
             "id": f"facility-{excel_row}",
             "excelRow": excel_row,
@@ -84,6 +93,10 @@ def main():
             "verificationStatus": raw.get("Verification Status"),
             "sourceUrl": raw.get("Source URL"),
             "researchNotes": raw.get("Research Notes"),
+            "coordinateStatus": audit.get("Coordinate Status"),
+            "coordinateMethod": audit.get("Method / Source"),
+            "coordinateQuality": audit.get("Match Quality"),
+            "coordinateNote": audit.get("Matched Address / Note"),
         })
 
     payload = {
@@ -104,4 +117,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

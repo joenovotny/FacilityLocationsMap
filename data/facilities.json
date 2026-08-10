@@ -2,10 +2,10 @@
   "metadata": {
     "sourceFile": "Strategic_End_User_Facilities_Bottler_Expansion_v2.xlsx",
     "sourceSheet": "Master Facilities v2",
-    "generatedAt": "2026-08-10T16:35:56-04:00",
+    "generatedAt": "2026-08-10T16:52:21-04:00",
     "totalRecords": 257,
-    "mappedRecords": 114,
-    "unmappedRecords": 143
+    "mappedRecords": 256,
+    "unmappedRecords": 1
   },
   "facilities": [
     {
@@ -27,7 +27,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.drinkpak.com/losangeles",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added",
+      "coordinateMethod": "OpenStreetMap Nominatim (cached one-time lookup)",
+      "coordinateQuality": "Exact building",
+      "coordinateNote": "Building 2, 21375, Needham Ranch Parkway, Waltz, Santa Clarita, Los Angeles County, California, 91322, United States"
     },
     {
       "id": "facility-3",
@@ -42,13 +46,17 @@
       "stateProvince": "CA",
       "postalCode": "91321",
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 34.39166,
+      "longitude": -118.54259,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.drinkpak.com/losangeles",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Santa Clarita, California; GeoNames ID 5393049"
     },
     {
       "id": "facility-4",
@@ -69,7 +77,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.drinkpak.com/losangeles",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "23015 PINE ST, SANTA CLARITA, CA, 91321"
     },
     {
       "id": "facility-5",
@@ -84,13 +96,17 @@
       "stateProvince": "TX",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 32.72541,
+      "longitude": -97.32085,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified city - street address pending",
       "sourceUrl": "https://www.drinkpak.com/",
-      "researchNotes": "Official site identifies an active Fort Worth production campus."
+      "researchNotes": "Official site identifies an active Fort Worth production campus.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Fort Worth, Texas; GeoNames ID 4691930"
     },
     {
       "id": "facility-6",
@@ -105,13 +121,17 @@
       "stateProvince": "PA",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 39.95238,
+      "longitude": -75.16362,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Planned - official source",
       "sourceUrl": "https://www.drinkpak.com/",
-      "researchNotes": "Official site shows Philadelphia with early-2027 timing; not active yet."
+      "researchNotes": "Official site shows Philadelphia with early-2027 timing; not active yet.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Philadelphia, Pennsylvania; GeoNames ID 4560349"
     },
     {
       "id": "facility-7",
@@ -126,13 +146,17 @@
       "stateProvince": "AZ",
       "postalCode": "85355",
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 33.579808626126,
+      "longitude": -112.393603679178,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.rauch.cc/company/branches",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Non-exact street match",
+      "coordinateNote": "10501 REEMS RD, WADDELL, AZ, 85355"
     },
     {
       "id": "facility-8",
@@ -147,13 +171,17 @@
       "stateProvince": "MO",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 38.62727,
+      "longitude": -90.19789,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified city - official source",
       "sourceUrl": "https://www.anheuser-busch.com/facilities",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "St. Louis, Missouri; GeoNames ID 4407066"
     },
     {
       "id": "facility-9",
@@ -168,13 +196,17 @@
       "stateProvince": "NY",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 43.15868,
+      "longitude": -76.33271,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified city - official source",
       "sourceUrl": "https://www.anheuser-busch.com/facilities",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Baldwinsville, New York; GeoNames ID 5107785"
     },
     {
       "id": "facility-10",
@@ -189,13 +221,17 @@
       "stateProvince": "GA",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 34.16533,
+      "longitude": -84.80231,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified city - official source",
       "sourceUrl": "https://www.anheuser-busch.com/facilities",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Cartersville, Georgia; GeoNames ID 4186531"
     },
     {
       "id": "facility-11",
@@ -210,13 +246,17 @@
       "stateProvince": "OH",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 39.96118,
+      "longitude": -82.99879,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified city - official source",
       "sourceUrl": "https://www.anheuser-busch.com/facilities",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Columbus, Ohio; GeoNames ID 4509177"
     },
     {
       "id": "facility-12",
@@ -231,13 +271,17 @@
       "stateProvince": "CO",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 40.58526,
+      "longitude": -105.08442,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified city - official source",
       "sourceUrl": "https://www.anheuser-busch.com/facilities",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Fort Collins, Colorado; GeoNames ID 5577147"
     },
     {
       "id": "facility-13",
@@ -252,13 +296,17 @@
       "stateProvince": "TX",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 29.76328,
+      "longitude": -95.36327,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified city - official source",
       "sourceUrl": "https://www.anheuser-busch.com/facilities",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Houston, Texas; GeoNames ID 4699066"
     },
     {
       "id": "facility-14",
@@ -273,13 +321,17 @@
       "stateProvince": "FL",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 30.33218,
+      "longitude": -81.65565,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified city - official source",
       "sourceUrl": "https://www.anheuser-busch.com/facilities",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Jacksonville, Florida; GeoNames ID 4160021"
     },
     {
       "id": "facility-15",
@@ -294,13 +346,17 @@
       "stateProvince": "CA",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 34.05223,
+      "longitude": -118.24368,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified city - official source",
       "sourceUrl": "https://www.anheuser-busch.com/facilities",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Los Angeles, California; GeoNames ID 5368361"
     },
     {
       "id": "facility-16",
@@ -315,13 +371,17 @@
       "stateProvince": "VA",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 37.2707,
+      "longitude": -76.70746,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified city - official source",
       "sourceUrl": "https://www.anheuser-busch.com/facilities",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Williamsburg, Virginia; GeoNames ID 4793846"
     },
     {
       "id": "facility-17",
@@ -336,13 +396,17 @@
       "stateProvince": "CA",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 38.24936,
+      "longitude": -122.03997,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Closure / sale announced - verify active status",
       "sourceUrl": "https://www.anheuser-busch.com/facilities",
-      "researchNotes": "Restructuring affects this site; do not treat as active without current validation."
+      "researchNotes": "Restructuring affects this site; do not treat as active without current validation.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Fairfield, California; GeoNames ID 5347335"
     },
     {
       "id": "facility-18",
@@ -357,13 +421,17 @@
       "stateProvince": "NH",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 42.86509,
+      "longitude": -71.4934,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Closure / sale announced - verify active status",
       "sourceUrl": "https://www.anheuser-busch.com/facilities",
-      "researchNotes": "Restructuring affects this site; do not treat as active without current validation."
+      "researchNotes": "Restructuring affects this site; do not treat as active without current validation.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Merrimack, New Hampshire; GeoNames ID 5089478"
     },
     {
       "id": "facility-19",
@@ -378,13 +446,17 @@
       "stateProvince": "NJ",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 40.73566,
+      "longitude": -74.17237,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Closure / sale announced - verify active status",
       "sourceUrl": "https://www.anheuser-busch.com/facilities",
-      "researchNotes": "Restructuring affects this site; do not treat as active without current validation."
+      "researchNotes": "Restructuring affects this site; do not treat as active without current validation.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Newark, New Jersey; GeoNames ID 5101798"
     },
     {
       "id": "facility-20",
@@ -399,13 +471,17 @@
       "stateProvince": "AZ",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 33.53865,
+      "longitude": -112.18599,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified city - official source",
       "sourceUrl": "https://www.mabrewing.com/our-breweries",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Glendale, Arizona; GeoNames ID 5295985"
     },
     {
       "id": "facility-21",
@@ -420,13 +496,17 @@
       "stateProvince": "SC",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 34.00071,
+      "longitude": -81.03481,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified city - official source",
       "sourceUrl": "https://www.mabrewing.com/our-breweries",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Columbia, South Carolina; GeoNames ID 4575352"
     },
     {
       "id": "facility-22",
@@ -441,13 +521,17 @@
       "stateProvince": "NJ",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 40.70121,
+      "longitude": -74.23015,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified city - official source",
       "sourceUrl": "https://www.mabrewing.com/our-breweries",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Hillside, New Jersey; GeoNames ID 5099093"
     },
     {
       "id": "facility-23",
@@ -462,13 +546,17 @@
       "stateProvince": "MO",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 38.43283,
+      "longitude": -90.37762,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Current status check required",
       "sourceUrl": "https://www.anheuser-busch.com/newsroom/arnold-mcc",
-      "researchNotes": "Network location identified; exact address/current operating status still to validate."
+      "researchNotes": "Network location identified; exact address/current operating status still to validate.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Arnold, Missouri; GeoNames ID 4375087"
     },
     {
       "id": "facility-24",
@@ -483,13 +571,17 @@
       "stateProvince": "FL",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 30.33218,
+      "longitude": -81.65565,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Current status check required",
       "sourceUrl": "https://www.anheuser-busch.com/newsroom/arnold-mcc",
-      "researchNotes": "Network location identified; exact address/current operating status still to validate."
+      "researchNotes": "Network location identified; exact address/current operating status still to validate.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Jacksonville, Florida; GeoNames ID 4160021"
     },
     {
       "id": "facility-25",
@@ -504,13 +596,17 @@
       "stateProvince": "CA",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 33.99251,
+      "longitude": -117.51644,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Current status check required",
       "sourceUrl": "https://www.anheuser-busch.com/newsroom/arnold-mcc",
-      "researchNotes": "Network location identified; exact address/current operating status still to validate."
+      "researchNotes": "Network location identified; exact address/current operating status still to validate.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Jurupa Valley, California; GeoNames ID 5373492"
     },
     {
       "id": "facility-26",
@@ -525,13 +621,17 @@
       "stateProvince": "NY",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 41.50343,
+      "longitude": -74.01042,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Current status check required",
       "sourceUrl": "https://www.anheuser-busch.com/newsroom/arnold-mcc",
-      "researchNotes": "Network location identified; exact address/current operating status still to validate."
+      "researchNotes": "Network location identified; exact address/current operating status still to validate.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Newburgh, New York; GeoNames ID 5128654"
     },
     {
       "id": "facility-27",
@@ -546,13 +646,17 @@
       "stateProvince": "CO",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 40.47748,
+      "longitude": -104.90136,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Current status check required",
       "sourceUrl": "https://www.anheuser-busch.com/newsroom/arnold-mcc",
-      "researchNotes": "Network location identified; exact address/current operating status still to validate."
+      "researchNotes": "Network location identified; exact address/current operating status still to validate.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Windsor, Colorado; GeoNames ID 5583509"
     },
     {
       "id": "facility-28",
@@ -567,13 +671,17 @@
       "stateProvince": "OK",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 35.46756,
+      "longitude": -97.51643,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Current status check required",
       "sourceUrl": "https://www.anheuser-busch.com/newsroom/arnold-mcc",
-      "researchNotes": "Network location identified; exact address/current operating status still to validate."
+      "researchNotes": "Network location identified; exact address/current operating status still to validate.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Oklahoma City, Oklahoma; GeoNames ID 4544349"
     },
     {
       "id": "facility-29",
@@ -588,13 +696,17 @@
       "stateProvince": "CA",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 33.95335,
+      "longitude": -117.39616,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Current status check required",
       "sourceUrl": "https://www.anheuser-busch.com/newsroom/arnold-mcc",
-      "researchNotes": "Network location identified; exact address/current operating status still to validate."
+      "researchNotes": "Network location identified; exact address/current operating status still to validate.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Riverside, California; GeoNames ID 5387877"
     },
     {
       "id": "facility-30",
@@ -609,13 +721,17 @@
       "stateProvince": "CO",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 39.75554,
+      "longitude": -105.2211,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified city - street address pending",
       "sourceUrl": "https://www.molsoncoors.com/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Golden, Colorado; GeoNames ID 5423294"
     },
     {
       "id": "facility-31",
@@ -630,13 +746,17 @@
       "stateProvince": "WI",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 43.0389,
+      "longitude": -87.90647,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified city - street address pending",
       "sourceUrl": "https://www.molsoncoors.com/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Milwaukee, Wisconsin; GeoNames ID 5263045"
     },
     {
       "id": "facility-32",
@@ -651,13 +771,17 @@
       "stateProvince": "GA",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 31.57851,
+      "longitude": -84.15574,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified city - street address pending",
       "sourceUrl": "https://www.molsoncoors.com/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Albany, Georgia; GeoNames ID 4179320"
     },
     {
       "id": "facility-33",
@@ -672,13 +796,17 @@
       "stateProvince": "TX",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 32.72541,
+      "longitude": -97.32085,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified city - street address pending",
       "sourceUrl": "https://www.molsoncoors.com/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Fort Worth, Texas; GeoNames ID 4691930"
     },
     {
       "id": "facility-34",
@@ -693,13 +821,17 @@
       "stateProvince": "OH",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 39.48089,
+      "longitude": -84.45772,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified city - street address pending",
       "sourceUrl": "https://www.molsoncoors.com/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Trenton, Ohio; GeoNames ID 4526469"
     },
     {
       "id": "facility-35",
@@ -714,13 +846,17 @@
       "stateProvince": "VA",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 38.4079,
+      "longitude": -78.62363,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified city - street address pending",
       "sourceUrl": "https://www.molsoncoors.com/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Elkton, Virginia; GeoNames ID 4757467"
     },
     {
       "id": "facility-36",
@@ -735,13 +871,17 @@
       "stateProvince": "BC",
       "postalCode": null,
       "country": "Canada",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 49.16638,
+      "longitude": -121.95257,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified city - street address pending",
       "sourceUrl": "https://www.molsoncoors.com/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Chilliwack, British Columbia; GeoNames ID 5921356"
     },
     {
       "id": "facility-37",
@@ -756,13 +896,17 @@
       "stateProvince": "QC",
       "postalCode": null,
       "country": "Canada",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 45.5152,
+      "longitude": -73.46818,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified city - street address pending",
       "sourceUrl": "https://www.molsoncoors.com/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Longueuil, Quebec; GeoNames ID 6059891"
     },
     {
       "id": "facility-38",
@@ -777,13 +921,17 @@
       "stateProvince": "NL",
       "postalCode": null,
       "country": "Canada",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 47.56494,
+      "longitude": -52.70931,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified city - street address pending",
       "sourceUrl": "https://www.molsoncoors.com/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "St. John's, Newfoundland and Labrador; GeoNames ID 6324733"
     },
     {
       "id": "facility-39",
@@ -798,13 +946,17 @@
       "stateProvince": "WI",
       "postalCode": "54601",
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 43.80438979543,
+      "longitude": -91.253384090303,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.citybrewery.com/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Non-exact street match",
+      "coordinateNote": "925 3RD ST S, LA CROSSE, WI, 54601"
     },
     {
       "id": "facility-40",
@@ -825,7 +977,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.citybrewery.com/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "100 33RD ST, LATROBE, PA, 15650"
     },
     {
       "id": "facility-41",
@@ -846,7 +1002,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.citybrewery.com/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "5151 E RAINES RD, MEMPHIS, TN, 38118"
     },
     {
       "id": "facility-42",
@@ -861,13 +1021,17 @@
       "stateProvince": "CA",
       "postalCode": "91706",
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 34.121702938715,
+      "longitude": -117.938222134275,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.citybrewery.com/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Non-exact street match",
+      "coordinateNote": "15801 E 1ST ST, IRWINDALE, CA, 91706"
     },
     {
       "id": "facility-43",
@@ -882,13 +1046,17 @@
       "stateProvince": "IL",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 42.00392,
+      "longitude": -87.97035,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified city - official source",
       "sourceUrl": "https://www.ardaghmetalpackaging.com/about-us/locations",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Elk Grove Village, Illinois; GeoNames ID 4890925"
     },
     {
       "id": "facility-44",
@@ -903,13 +1071,17 @@
       "stateProvince": "SC",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 34.21821,
+      "longitude": -80.24841,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified city - official source",
       "sourceUrl": "https://www.ardaghmetalpackaging.com/about-us/locations",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Bishopville, South Carolina; GeoNames ID 4571470"
     },
     {
       "id": "facility-45",
@@ -924,13 +1096,17 @@
       "stateProvince": "IL",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 41.85003,
+      "longitude": -87.65005,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified city - official source",
       "sourceUrl": "https://www.ardaghmetalpackaging.com/about-us/locations",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Chicago, Illinois; GeoNames ID 4887398"
     },
     {
       "id": "facility-46",
@@ -945,13 +1121,17 @@
       "stateProvince": "CA",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 38.24936,
+      "longitude": -122.03997,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified city - official source",
       "sourceUrl": "https://www.ardaghmetalpackaging.com/about-us/locations",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Fairfield, California; GeoNames ID 5347335"
     },
     {
       "id": "facility-47",
@@ -966,13 +1146,17 @@
       "stateProvince": "OH",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 41.35033,
+      "longitude": -83.12186,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified city - official source",
       "sourceUrl": "https://www.ardaghmetalpackaging.com/about-us/locations",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Fremont, Ohio; GeoNames ID 5155207"
     },
     {
       "id": "facility-48",
@@ -987,13 +1171,17 @@
       "stateProvince": "OH",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 41.39505,
+      "longitude": -82.55517,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified city - official source",
       "sourceUrl": "https://www.ardaghmetalpackaging.com/about-us/locations",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Huron, Ohio; GeoNames ID 5158298"
     },
     {
       "id": "facility-49",
@@ -1008,13 +1196,17 @@
       "stateProvince": "MS",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 34.96176,
+      "longitude": -89.82953,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified city - official source",
       "sourceUrl": "https://www.ardaghmetalpackaging.com/about-us/locations",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Olive Branch, Mississippi; GeoNames ID 4439869"
     },
     {
       "id": "facility-50",
@@ -1029,13 +1221,17 @@
       "stateProvince": "IN",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 41.47309,
+      "longitude": -87.06114,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified city - official source",
       "sourceUrl": "https://www.ardaghmetalpackaging.com/about-us/locations",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Valparaiso, Indiana; GeoNames ID 4927537"
     },
     {
       "id": "facility-51",
@@ -1050,13 +1246,17 @@
       "stateProvince": "NC",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 36.09986,
+      "longitude": -80.24422,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified city - official source",
       "sourceUrl": "https://www.ardaghmetalpackaging.com/about-us/locations",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Winston-Salem, North Carolina; GeoNames ID 4499612"
     },
     {
       "id": "facility-52",
@@ -1071,13 +1271,17 @@
       "stateProvince": "AZ",
       "postalCode": "85355",
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 33.61143,
+      "longitude": -112.42711,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified current manufacturing city - official careers source",
       "sourceUrl": "https://jobs.ball.com/corp_packaging/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Waddell, Arizona; GeoNames ID 5319614"
     },
     {
       "id": "facility-53",
@@ -1092,13 +1296,17 @@
       "stateProvince": "AZ",
       "postalCode": "85395",
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 33.43532,
+      "longitude": -112.35821,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified current manufacturing city - official careers source",
       "sourceUrl": "https://jobs.ball.com/corp_packaging/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Goodyear, Arizona; GeoNames ID 5296266"
     },
     {
       "id": "facility-54",
@@ -1113,13 +1321,17 @@
       "stateProvince": "CO",
       "postalCode": "80403",
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 39.75554,
+      "longitude": -105.2211,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified current manufacturing city - official careers source",
       "sourceUrl": "https://jobs.ball.com/corp_packaging/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Golden, Colorado; GeoNames ID 5423294"
     },
     {
       "id": "facility-55",
@@ -1134,13 +1346,17 @@
       "stateProvince": "GA",
       "postalCode": "30161",
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 34.25704,
+      "longitude": -85.16467,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified current manufacturing city - official careers source",
       "sourceUrl": "https://jobs.ball.com/corp_packaging/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Rome, Georgia; GeoNames ID 4219762"
     },
     {
       "id": "facility-56",
@@ -1155,13 +1371,17 @@
       "stateProvince": "OH",
       "postalCode": "45840",
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 41.04422,
+      "longitude": -83.64993,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified current manufacturing city - official careers source",
       "sourceUrl": "https://jobs.ball.com/corp_packaging/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Findlay, Ohio; GeoNames ID 5153924"
     },
     {
       "id": "facility-57",
@@ -1176,13 +1396,17 @@
       "stateProvince": "PA",
       "postalCode": "18640",
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 41.32591,
+      "longitude": -75.78936,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified current manufacturing city - official careers source",
       "sourceUrl": "https://jobs.ball.com/corp_packaging/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Pittston, Pennsylvania; GeoNames ID 5206397"
     },
     {
       "id": "facility-58",
@@ -1197,13 +1421,17 @@
       "stateProvince": "TX",
       "postalCode": "76140",
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 32.72541,
+      "longitude": -97.32085,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified current manufacturing city - official careers source",
       "sourceUrl": "https://jobs.ball.com/corp_packaging/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Fort Worth, Texas; GeoNames ID 4691930"
     },
     {
       "id": "facility-59",
@@ -1218,13 +1446,17 @@
       "stateProvince": "TX",
       "postalCode": "77303",
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 30.31188,
+      "longitude": -95.45605,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified current manufacturing city - official careers source",
       "sourceUrl": "https://jobs.ball.com/corp_packaging/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Conroe, Texas; GeoNames ID 4682991"
     },
     {
       "id": "facility-60",
@@ -1239,13 +1471,17 @@
       "stateProvince": "OR",
       "postalCode": "97321",
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 44.68095,
+      "longitude": -123.06148,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified current manufacturing city - official careers source",
       "sourceUrl": "https://jobs.ball.com/corp_packaging/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Millersburg, Oregon; GeoNames ID 5740834"
     },
     {
       "id": "facility-61",
@@ -1260,13 +1496,17 @@
       "stateProvince": "WI",
       "postalCode": "53538",
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 42.92889,
+      "longitude": -88.83705,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified current manufacturing city - official careers source",
       "sourceUrl": "https://jobs.ball.com/corp_packaging/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Fort Atkinson, Wisconsin; GeoNames ID 5253498"
     },
     {
       "id": "facility-62",
@@ -1281,13 +1521,17 @@
       "stateProvince": "NY",
       "postalCode": "12866",
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 43.08313,
+      "longitude": -73.78457,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified current manufacturing city - official careers source",
       "sourceUrl": "https://jobs.ball.com/corp_packaging/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Saratoga Springs, New York; GeoNames ID 5136334"
     },
     {
       "id": "facility-63",
@@ -1302,13 +1546,17 @@
       "stateProvince": "FL",
       "postalCode": "33880",
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 28.02224,
+      "longitude": -81.73286,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified current manufacturing city - official careers source",
       "sourceUrl": "https://jobs.ball.com/corp_packaging/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Winter Haven, Florida; GeoNames ID 4178552"
     },
     {
       "id": "facility-64",
@@ -1329,7 +1577,11 @@
       "ace": null,
       "verificationStatus": "Verified official location - street address pending",
       "sourceUrl": "https://www.crowncork.com/about/global-locations",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Retained",
+      "coordinateMethod": "Official Crown global-locations page",
+      "coordinateQuality": "Official city-level point",
+      "coordinateNote": "Matches Crown's published city coordinate; not verified as an exact building point"
     },
     {
       "id": "facility-65",
@@ -1350,7 +1602,11 @@
       "ace": null,
       "verificationStatus": "Verified official location - street address pending",
       "sourceUrl": "https://www.crowncork.com/about/global-locations",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Retained",
+      "coordinateMethod": "Official Crown global-locations page",
+      "coordinateQuality": "Official city-level point",
+      "coordinateNote": "Matches Crown's published city coordinate; not verified as an exact building point"
     },
     {
       "id": "facility-66",
@@ -1371,7 +1627,11 @@
       "ace": null,
       "verificationStatus": "Verified official location - street address pending",
       "sourceUrl": "https://www.crowncork.com/about/global-locations",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Retained",
+      "coordinateMethod": "Official Crown global-locations page",
+      "coordinateQuality": "Official city-level point",
+      "coordinateNote": "Matches Crown's published city coordinate; not verified as an exact building point"
     },
     {
       "id": "facility-67",
@@ -1392,7 +1652,11 @@
       "ace": null,
       "verificationStatus": "Verified official location - street address pending",
       "sourceUrl": "https://www.crowncork.com/about/global-locations",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Retained",
+      "coordinateMethod": "Official Crown global-locations page",
+      "coordinateQuality": "Official city-level point",
+      "coordinateNote": "Matches Crown's published city coordinate; not verified as an exact building point"
     },
     {
       "id": "facility-68",
@@ -1413,7 +1677,11 @@
       "ace": null,
       "verificationStatus": "Verified official location - street address pending",
       "sourceUrl": "https://www.crowncork.com/about/global-locations",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Retained",
+      "coordinateMethod": "Official Crown global-locations page",
+      "coordinateQuality": "Official city-level point",
+      "coordinateNote": "Matches Crown's published city coordinate; not verified as an exact building point"
     },
     {
       "id": "facility-69",
@@ -1434,7 +1702,11 @@
       "ace": null,
       "verificationStatus": "Verified official location - street address pending",
       "sourceUrl": "https://www.crowncork.com/about/global-locations",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Retained",
+      "coordinateMethod": "Official Crown global-locations page",
+      "coordinateQuality": "Official city-level point",
+      "coordinateNote": "Matches Crown's published city coordinate; not verified as an exact building point"
     },
     {
       "id": "facility-70",
@@ -1455,7 +1727,11 @@
       "ace": null,
       "verificationStatus": "Verified official location - street address pending",
       "sourceUrl": "https://www.crowncork.com/about/global-locations",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Retained",
+      "coordinateMethod": "Official Crown global-locations page",
+      "coordinateQuality": "Official city-level point",
+      "coordinateNote": "Matches Crown's published city coordinate; not verified as an exact building point"
     },
     {
       "id": "facility-71",
@@ -1476,7 +1752,11 @@
       "ace": null,
       "verificationStatus": "Verified official location - street address pending",
       "sourceUrl": "https://www.crowncork.com/about/global-locations",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Retained",
+      "coordinateMethod": "Official Crown global-locations page",
+      "coordinateQuality": "Official city-level point",
+      "coordinateNote": "Matches Crown's published city coordinate; not verified as an exact building point"
     },
     {
       "id": "facility-72",
@@ -1497,7 +1777,11 @@
       "ace": null,
       "verificationStatus": "Verified official location - street address pending",
       "sourceUrl": "https://www.crowncork.com/about/global-locations",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Retained",
+      "coordinateMethod": "Official Crown global-locations page",
+      "coordinateQuality": "Official city-level point",
+      "coordinateNote": "Matches Crown's published city coordinate; not verified as an exact building point"
     },
     {
       "id": "facility-73",
@@ -1518,7 +1802,11 @@
       "ace": null,
       "verificationStatus": "Verified official location - street address pending",
       "sourceUrl": "https://www.crowncork.com/about/global-locations",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Retained",
+      "coordinateMethod": "Official Crown global-locations page",
+      "coordinateQuality": "Official city-level point",
+      "coordinateNote": "Matches Crown's published city coordinate; not verified as an exact building point"
     },
     {
       "id": "facility-74",
@@ -1539,7 +1827,11 @@
       "ace": null,
       "verificationStatus": "Verified official location - street address pending",
       "sourceUrl": "https://www.crowncork.com/about/global-locations",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Retained",
+      "coordinateMethod": "Official Crown global-locations page",
+      "coordinateQuality": "Official city-level point",
+      "coordinateNote": "Matches Crown's published city coordinate; not verified as an exact building point"
     },
     {
       "id": "facility-75",
@@ -1560,7 +1852,11 @@
       "ace": null,
       "verificationStatus": "Verified official location - street address pending",
       "sourceUrl": "https://www.crowncork.com/about/global-locations",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Retained",
+      "coordinateMethod": "Official Crown global-locations page",
+      "coordinateQuality": "Official city-level point",
+      "coordinateNote": "Matches Crown's published city coordinate; not verified as an exact building point"
     },
     {
       "id": "facility-76",
@@ -1581,7 +1877,11 @@
       "ace": null,
       "verificationStatus": "Verified official location - street address pending",
       "sourceUrl": "https://www.crowncork.com/about/global-locations",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Retained",
+      "coordinateMethod": "Official Crown global-locations page",
+      "coordinateQuality": "Official city-level point",
+      "coordinateNote": "Matches Crown's published city coordinate; not verified as an exact building point"
     },
     {
       "id": "facility-77",
@@ -1602,7 +1902,11 @@
       "ace": null,
       "verificationStatus": "Verified official location - street address pending",
       "sourceUrl": "https://www.crowncork.com/about/global-locations",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Retained",
+      "coordinateMethod": "Official Crown global-locations page",
+      "coordinateQuality": "Official city-level point",
+      "coordinateNote": "Matches Crown's published city coordinate; not verified as an exact building point"
     },
     {
       "id": "facility-78",
@@ -1623,7 +1927,11 @@
       "ace": null,
       "verificationStatus": "Verified official location - street address pending",
       "sourceUrl": "https://www.crowncork.com/about/global-locations",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Retained",
+      "coordinateMethod": "Official Crown global-locations page",
+      "coordinateQuality": "Official city-level point",
+      "coordinateNote": "Matches Crown's published city coordinate; not verified as an exact building point"
     },
     {
       "id": "facility-79",
@@ -1644,7 +1952,11 @@
       "ace": null,
       "verificationStatus": "Verified official location - street address pending",
       "sourceUrl": "https://www.crowncork.com/about/global-locations",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Retained",
+      "coordinateMethod": "Official Crown global-locations page",
+      "coordinateQuality": "Official city-level point",
+      "coordinateNote": "Matches Crown's published city coordinate; not verified as an exact building point"
     },
     {
       "id": "facility-80",
@@ -1659,13 +1971,17 @@
       "stateProvince": "SC",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 34.05794,
+      "longitude": -79.75312,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified official location - street address pending",
       "sourceUrl": "https://www.crowncork.com/about/global-locations",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Effingham, South Carolina; GeoNames ID 4577612"
     },
     {
       "id": "facility-81",
@@ -1686,7 +2002,11 @@
       "ace": null,
       "verificationStatus": "Verified official location - street address pending",
       "sourceUrl": "https://www.crowncork.com/about/global-locations",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Retained",
+      "coordinateMethod": "Official Crown global-locations page",
+      "coordinateQuality": "Official city-level point",
+      "coordinateNote": "Matches Crown's published city coordinate; not verified as an exact building point"
     },
     {
       "id": "facility-82",
@@ -1707,7 +2027,11 @@
       "ace": null,
       "verificationStatus": "Verified official location - street address pending",
       "sourceUrl": "https://www.crowncork.com/about/global-locations",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Retained",
+      "coordinateMethod": "Official Crown global-locations page",
+      "coordinateQuality": "Official city-level point",
+      "coordinateNote": "Matches Crown's published city coordinate; not verified as an exact building point"
     },
     {
       "id": "facility-83",
@@ -1728,7 +2052,11 @@
       "ace": null,
       "verificationStatus": "Verified official location - street address pending",
       "sourceUrl": "https://www.crowncork.com/about/global-locations",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Retained",
+      "coordinateMethod": "Official Crown global-locations page",
+      "coordinateQuality": "Official city-level point",
+      "coordinateNote": "Matches Crown's published city coordinate; not verified as an exact building point"
     },
     {
       "id": "facility-84",
@@ -1749,7 +2077,11 @@
       "ace": null,
       "verificationStatus": "Verified official location - street address pending",
       "sourceUrl": "https://www.crowncork.com/about/global-locations",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Retained",
+      "coordinateMethod": "Official Crown global-locations page",
+      "coordinateQuality": "Official city-level point",
+      "coordinateNote": "Matches Crown's published city coordinate; not verified as an exact building point"
     },
     {
       "id": "facility-85",
@@ -1770,7 +2102,11 @@
       "ace": null,
       "verificationStatus": "Verified official location - street address pending",
       "sourceUrl": "https://www.crowncork.com/about/global-locations",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Retained",
+      "coordinateMethod": "Official Crown global-locations page",
+      "coordinateQuality": "Official city-level point",
+      "coordinateNote": "Matches Crown's published city coordinate; not verified as an exact building point"
     },
     {
       "id": "facility-86",
@@ -1791,7 +2127,11 @@
       "ace": null,
       "verificationStatus": "Verified official location - street address pending",
       "sourceUrl": "https://www.crowncork.com/about/global-locations",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Retained",
+      "coordinateMethod": "Official Crown global-locations page",
+      "coordinateQuality": "Official city-level point",
+      "coordinateNote": "Matches Crown's published city coordinate; not verified as an exact building point"
     },
     {
       "id": "facility-87",
@@ -1812,7 +2152,11 @@
       "ace": null,
       "verificationStatus": "Verified official location - street address pending",
       "sourceUrl": "https://www.crowncork.com/about/global-locations",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Retained",
+      "coordinateMethod": "Official Crown global-locations page",
+      "coordinateQuality": "Official city-level point",
+      "coordinateNote": "Matches Crown's published city coordinate; not verified as an exact building point"
     },
     {
       "id": "facility-88",
@@ -1827,13 +2171,17 @@
       "stateProvince": "AB",
       "postalCode": null,
       "country": "Canada",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 51.05011,
+      "longitude": -114.08529,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified official location - street address pending",
       "sourceUrl": "https://www.crowncork.com/about/global-locations",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Calgary, Alberta; GeoNames ID 5913490"
     },
     {
       "id": "facility-89",
@@ -1848,13 +2196,17 @@
       "stateProvince": "ON",
       "postalCode": null,
       "country": "Canada",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 43.6403,
+      "longitude": -79.93146,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified official location - street address pending",
       "sourceUrl": "https://www.crowncork.com/about/global-locations",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Halton Hills, Ontario; GeoNames ID 5969721"
     },
     {
       "id": "facility-90",
@@ -1869,13 +2221,17 @@
       "stateProvince": "ON",
       "postalCode": null,
       "country": "Canada",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 43.70643,
+      "longitude": -79.39864,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified official location - street address pending",
       "sourceUrl": "https://www.crowncork.com/about/global-locations",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Toronto, Ontario; GeoNames ID 6167865"
     },
     {
       "id": "facility-91",
@@ -1896,7 +2252,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.o-i.com/about-o-i/contact-us/americas/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "7134 COUNTY HOUSE RD, AUBURN, NY, 13021"
     },
     {
       "id": "facility-92",
@@ -1911,13 +2271,17 @@
       "stateProvince": "KY",
       "postalCode": "42101",
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 36.99032,
+      "longitude": -86.4436,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.o-i.com/about-o-i/contact-us/americas/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Bowling Green, Kentucky; GeoNames ID 4285268"
     },
     {
       "id": "facility-93",
@@ -1932,13 +2296,17 @@
       "stateProvince": "PA",
       "postalCode": "15823",
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 41.25978,
+      "longitude": -78.72669,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.o-i.com/about-o-i/contact-us/americas/",
-      "researchNotes": "Official facility label is Brockway; official postal locality is Brockport."
+      "researchNotes": "Official facility label is Brockway; official postal locality is Brockport.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Brockport, Pennsylvania; GeoNames ID 5181750"
     },
     {
       "id": "facility-94",
@@ -1953,13 +2321,17 @@
       "stateProvince": "PA",
       "postalCode": "15823",
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 41.25978,
+      "longitude": -78.72669,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.o-i.com/about-o-i/contact-us/americas/",
-      "researchNotes": "Official facility label is Crenshaw; official postal locality is Brockport."
+      "researchNotes": "Official facility label is Crenshaw; official postal locality is Brockport.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Brockport, Pennsylvania; GeoNames ID 5181750"
     },
     {
       "id": "facility-95",
@@ -1974,13 +2346,17 @@
       "stateProvince": "VA",
       "postalCode": "24586",
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 36.602204767916,
+      "longitude": -79.324605643441,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.o-i.com/about-o-i/contact-us/americas/",
-      "researchNotes": "Official facility label is Danville; official postal locality is Ringgold."
+      "researchNotes": "Official facility label is Danville; official postal locality is Ringgold.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Non-exact street match",
+      "coordinateNote": "29 GLASSBLOWER LN, RINGGOLD, VA, 24586"
     },
     {
       "id": "facility-96",
@@ -1995,13 +2371,17 @@
       "stateProvince": "WA",
       "postalCode": "98625",
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 46.00767,
+      "longitude": -122.84436,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.o-i.com/about-o-i/contact-us/americas/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Kalama, Washington; GeoNames ID 5799410"
     },
     {
       "id": "facility-97",
@@ -2016,13 +2396,17 @@
       "stateProvince": "IN",
       "postalCode": "46051",
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 40.065310780698,
+      "longitude": -85.85352230634,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.o-i.com/about-o-i/contact-us/americas/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Non-exact street match",
+      "coordinateNote": "2481 BROOKSIDE RD, LAPEL, IN, 46051"
     },
     {
       "id": "facility-98",
@@ -2037,13 +2421,17 @@
       "stateProvince": "CA",
       "postalCode": "90058-3628",
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 33.996509871154,
+      "longitude": -118.217269023485,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.o-i.com/about-o-i/contact-us/americas/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Non-exact street match",
+      "coordinateNote": "2901 FRUITLAND AVE, LOS ANGELES, CA, 90058"
     },
     {
       "id": "facility-99",
@@ -2064,7 +2452,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.o-i.com/about-o-i/contact-us/americas/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "2401 OLD SHAWNEE RD, MUSKOGEE, OK, 74403"
     },
     {
       "id": "facility-100",
@@ -2079,13 +2471,17 @@
       "stateProvince": "VA",
       "postalCode": "23168-9760",
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 37.387052809169,
+      "longitude": -76.800724664983,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.o-i.com/about-o-i/contact-us/americas/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Non-exact street match",
+      "coordinateNote": "150 INDUSTRIAL BLVD, TOANO, VA, 23168"
     },
     {
       "id": "facility-101",
@@ -2100,13 +2496,17 @@
       "stateProvince": "CA",
       "postalCode": "95376",
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 37.72154699135,
+      "longitude": -121.488567279937,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.o-i.com/about-o-i/contact-us/americas/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Non-exact street match",
+      "coordinateNote": "14700 W SCHULTE RD, TRACY, CA, 95377"
     },
     {
       "id": "facility-102",
@@ -2127,7 +2527,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.o-i.com/about-o-i/contact-us/americas/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "11133 EASTMAN PARK DR, WINDSOR, CO, 80550"
     },
     {
       "id": "facility-103",
@@ -2148,7 +2552,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.o-i.com/about-o-i/contact-us/americas/",
-      "researchNotes": "Official facility label is Winston-Salem; official postal locality is Lexington."
+      "researchNotes": "Official facility label is Winston-Salem; official postal locality is Lexington.",
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "9698 OLD US HWY 52, LEXINGTON, NC, 27295"
     },
     {
       "id": "facility-104",
@@ -2163,13 +2571,17 @@
       "stateProvince": "OH",
       "postalCode": "43701",
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 39.94013491987,
+      "longitude": -82.02878750731,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.o-i.com/about-o-i/contact-us/americas/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Non-exact street match",
+      "coordinateNote": "1700 S STATE ST, ZANESVILLE, OH, 43701"
     },
     {
       "id": "facility-105",
@@ -2184,13 +2596,17 @@
       "stateProvince": "ON",
       "postalCode": "L6T 2J5",
       "country": "Canada",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 43.68341,
+      "longitude": -79.76633,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.o-i.com/about-o-i/contact-us/americas/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Brampton, Ontario; GeoNames ID 5907364"
     },
     {
       "id": "facility-106",
@@ -2211,7 +2627,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.o-i.com/about-o-i/contact-us/americas/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added",
+      "coordinateMethod": "OpenStreetMap Nominatim (cached one-time lookup)",
+      "coordinateQuality": "Exact facility / works",
+      "coordinateNote": "Owens-Illinois, 2376, Rue Wellington, Pointe-Saint-Charles, Le Sud-Ouest, Montréal, Agglomération de Montréal, Montréal (région administrative), Québec, H3K 1X6, Canada"
     },
     {
       "id": "facility-107",
@@ -2226,13 +2646,17 @@
       "stateProvince": "IL",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 41.66892,
+      "longitude": -87.73866,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Research starter - exact address pending",
       "sourceUrl": "https://aspirebakeriescareers.com/content/location/?locale=en_US",
-      "researchNotes": "Do not treat this parent as exhaustive yet."
+      "researchNotes": "Do not treat this parent as exhaustive yet.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Alsip, Illinois; GeoNames ID 4883207"
     },
     {
       "id": "facility-108",
@@ -2247,13 +2671,17 @@
       "stateProvince": "CA",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 33.83529,
+      "longitude": -117.9145,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Research starter - exact address pending",
       "sourceUrl": "https://aspirebakeriescareers.com/content/location/?locale=en_US",
-      "researchNotes": "Do not treat this parent as exhaustive yet."
+      "researchNotes": "Do not treat this parent as exhaustive yet.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Anaheim, California; GeoNames ID 5323810"
     },
     {
       "id": "facility-109",
@@ -2268,13 +2696,17 @@
       "stateProvince": "IL",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 41.69864,
+      "longitude": -88.0684,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Research starter - exact address pending",
       "sourceUrl": "https://aspirebakeriescareers.com/content/location/?locale=en_US",
-      "researchNotes": "Do not treat this parent as exhaustive yet."
+      "researchNotes": "Do not treat this parent as exhaustive yet.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Bolingbrook, Illinois; GeoNames ID 4885265"
     },
     {
       "id": "facility-110",
@@ -2289,13 +2721,17 @@
       "stateProvince": "IL",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 41.50615,
+      "longitude": -87.6356,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Research starter - exact address pending",
       "sourceUrl": "https://aspirebakeriescareers.com/content/location/?locale=en_US",
-      "researchNotes": "Do not treat this parent as exhaustive yet."
+      "researchNotes": "Do not treat this parent as exhaustive yet.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Chicago Heights, Illinois; GeoNames ID 4887442"
     },
     {
       "id": "facility-111",
@@ -2310,13 +2746,17 @@
       "stateProvince": "MN",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 44.78941,
+      "longitude": -93.60218,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Research starter - exact address pending",
       "sourceUrl": "https://aspirebakeriescareers.com/content/location/?locale=en_US",
-      "researchNotes": "Do not treat this parent as exhaustive yet."
+      "researchNotes": "Do not treat this parent as exhaustive yet.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Chaska, Minnesota; GeoNames ID 5020938"
     },
     {
       "id": "facility-112",
@@ -2331,13 +2771,17 @@
       "stateProvince": "SC",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 33.96571,
+      "longitude": -81.07398,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Research starter - exact address pending",
       "sourceUrl": "https://aspirebakeriescareers.com/content/location/?locale=en_US",
-      "researchNotes": "Do not treat this parent as exhaustive yet."
+      "researchNotes": "Do not treat this parent as exhaustive yet.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Cayce, South Carolina; GeoNames ID 4573888"
     },
     {
       "id": "facility-113",
@@ -2352,13 +2796,17 @@
       "stateProvince": "CA",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 34.00057,
+      "longitude": -118.15979,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Research starter - exact address pending",
       "sourceUrl": "https://aspirebakeriescareers.com/content/location/?locale=en_US",
-      "researchNotes": "Do not treat this parent as exhaustive yet."
+      "researchNotes": "Do not treat this parent as exhaustive yet.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Commerce, California; GeoNames ID 5338929"
     },
     {
       "id": "facility-114",
@@ -2373,13 +2821,17 @@
       "stateProvince": "PA",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 40.95842,
+      "longitude": -75.97465,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Research starter - exact address pending",
       "sourceUrl": "https://aspirebakeriescareers.com/content/location/?locale=en_US",
-      "researchNotes": "Do not treat this parent as exhaustive yet."
+      "researchNotes": "Do not treat this parent as exhaustive yet.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Hazleton, Pennsylvania; GeoNames ID 5193011"
     },
     {
       "id": "facility-115",
@@ -2394,13 +2846,17 @@
       "stateProvince": "NJ",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 39.74761,
+      "longitude": -75.31047,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Research starter - exact address pending",
       "sourceUrl": "https://aspirebakeriescareers.com/content/location/?locale=en_US",
-      "researchNotes": "Do not treat this parent as exhaustive yet."
+      "researchNotes": "Do not treat this parent as exhaustive yet.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Swedesboro, New Jersey; GeoNames ID 4504391"
     },
     {
       "id": "facility-116",
@@ -2415,13 +2871,17 @@
       "stateProvince": "CA",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 34.18667,
+      "longitude": -118.44897,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Research starter - exact address pending",
       "sourceUrl": "https://aspirebakeriescareers.com/content/location/?locale=en_US",
-      "researchNotes": "Do not treat this parent as exhaustive yet."
+      "researchNotes": "Do not treat this parent as exhaustive yet.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Van Nuys, California; GeoNames ID 5405693"
     },
     {
       "id": "facility-117",
@@ -2436,13 +2896,17 @@
       "stateProvince": "IL",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 39.48309,
+      "longitude": -88.37283,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified operating city - not exhaustive",
       "sourceUrl": "https://careers.bimbobakeriesusa.com/",
-      "researchNotes": "Bimbo operates a large U.S. manufacturing network; full address-level extraction remains open."
+      "researchNotes": "Bimbo operates a large U.S. manufacturing network; full address-level extraction remains open.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Mattoon, Illinois; GeoNames ID 4244099"
     },
     {
       "id": "facility-118",
@@ -2457,13 +2921,17 @@
       "stateProvince": "CA",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 34.1975,
+      "longitude": -119.17705,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified operating city - not exhaustive",
       "sourceUrl": "https://careers.bimbobakeriesusa.com/",
-      "researchNotes": "Bimbo operates a large U.S. manufacturing network; full address-level extraction remains open."
+      "researchNotes": "Bimbo operates a large U.S. manufacturing network; full address-level extraction remains open.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Oxnard, California; GeoNames ID 5380184"
     },
     {
       "id": "facility-119",
@@ -2478,13 +2946,17 @@
       "stateProvince": "TX",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 32.72541,
+      "longitude": -97.32085,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified operating city - not exhaustive",
       "sourceUrl": "https://careers.bimbobakeriesusa.com/",
-      "researchNotes": "Bimbo operates a large U.S. manufacturing network; full address-level extraction remains open."
+      "researchNotes": "Bimbo operates a large U.S. manufacturing network; full address-level extraction remains open.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Fort Worth, Texas; GeoNames ID 4691930"
     },
     {
       "id": "facility-120",
@@ -2499,13 +2971,17 @@
       "stateProvince": "TX",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 29.42412,
+      "longitude": -98.49363,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified operating city - not exhaustive",
       "sourceUrl": "https://careers.bimbobakeriesusa.com/",
-      "researchNotes": "Bimbo operates a large U.S. manufacturing network; full address-level extraction remains open."
+      "researchNotes": "Bimbo operates a large U.S. manufacturing network; full address-level extraction remains open.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "San Antonio, Texas; GeoNames ID 4726206"
     },
     {
       "id": "facility-121",
@@ -2520,13 +2996,17 @@
       "stateProvince": "TX",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 32.93123,
+      "longitude": -96.45971,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified operating city - not exhaustive",
       "sourceUrl": "https://careers.bimbobakeriesusa.com/",
-      "researchNotes": "Bimbo operates a large U.S. manufacturing network; full address-level extraction remains open."
+      "researchNotes": "Bimbo operates a large U.S. manufacturing network; full address-level extraction remains open.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Rockwall, Texas; GeoNames ID 4723406"
     },
     {
       "id": "facility-122",
@@ -2541,13 +3021,17 @@
       "stateProvince": "CO",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 39.73915,
+      "longitude": -104.9847,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified operating city - not exhaustive",
       "sourceUrl": "https://careers.bimbobakeriesusa.com/",
-      "researchNotes": "Bimbo operates a large U.S. manufacturing network; full address-level extraction remains open."
+      "researchNotes": "Bimbo operates a large U.S. manufacturing network; full address-level extraction remains open.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Denver, Colorado; GeoNames ID 5419384"
     },
     {
       "id": "facility-123",
@@ -2562,13 +3046,17 @@
       "stateProvince": "AZ",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 33.44838,
+      "longitude": -112.07404,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified operating city - not exhaustive",
       "sourceUrl": "https://careers.bimbobakeriesusa.com/",
-      "researchNotes": "Bimbo operates a large U.S. manufacturing network; full address-level extraction remains open."
+      "researchNotes": "Bimbo operates a large U.S. manufacturing network; full address-level extraction remains open.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Phoenix, Arizona; GeoNames ID 5308655"
     },
     {
       "id": "facility-124",
@@ -2583,13 +3071,17 @@
       "stateProvince": "CA",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 37.65466,
+      "longitude": -122.40775,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified operating city - not exhaustive",
       "sourceUrl": "https://careers.bimbobakeriesusa.com/",
-      "researchNotes": "Bimbo operates a large U.S. manufacturing network; full address-level extraction remains open."
+      "researchNotes": "Bimbo operates a large U.S. manufacturing network; full address-level extraction remains open.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "South San Francisco, California; GeoNames ID 5397765"
     },
     {
       "id": "facility-125",
@@ -2604,13 +3096,17 @@
       "stateProvince": "CA",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 33.11921,
+      "longitude": -117.08642,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified operating city - not exhaustive",
       "sourceUrl": "https://careers.bimbobakeriesusa.com/",
-      "researchNotes": "Bimbo operates a large U.S. manufacturing network; full address-level extraction remains open."
+      "researchNotes": "Bimbo operates a large U.S. manufacturing network; full address-level extraction remains open.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Escondido, California; GeoNames ID 5346827"
     },
     {
       "id": "facility-126",
@@ -2625,13 +3121,17 @@
       "stateProvince": "IL",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 41.85003,
+      "longitude": -87.65005,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Research starter - exact address/current status pending",
       "sourceUrl": "https://www.mondelezinternational.com/United-States/",
-      "researchNotes": "Do not treat this parent as exhaustive yet."
+      "researchNotes": "Do not treat this parent as exhaustive yet.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Chicago, Illinois; GeoNames ID 4887398"
     },
     {
       "id": "facility-127",
@@ -2646,13 +3146,17 @@
       "stateProvince": "VA",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 37.55376,
+      "longitude": -77.46026,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Research starter - exact address/current status pending",
       "sourceUrl": "https://www.mondelezinternational.com/United-States/",
-      "researchNotes": "Do not treat this parent as exhaustive yet."
+      "researchNotes": "Do not treat this parent as exhaustive yet.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Richmond, Virginia; GeoNames ID 4781708"
     },
     {
       "id": "facility-128",
@@ -2667,13 +3171,17 @@
       "stateProvince": "NJ",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 40.94038,
+      "longitude": -74.13181,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Research starter - exact address/current status pending",
       "sourceUrl": "https://www.mondelezinternational.com/United-States/",
-      "researchNotes": "Do not treat this parent as exhaustive yet."
+      "researchNotes": "Do not treat this parent as exhaustive yet.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Fair Lawn, New Jersey; GeoNames ID 5097773"
     },
     {
       "id": "facility-129",
@@ -2688,13 +3196,17 @@
       "stateProvince": "OR",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 45.52345,
+      "longitude": -122.67621,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Research starter - exact address/current status pending",
       "sourceUrl": "https://www.mondelezinternational.com/United-States/",
-      "researchNotes": "Do not treat this parent as exhaustive yet."
+      "researchNotes": "Do not treat this parent as exhaustive yet.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Portland, Oregon; GeoNames ID 5746545"
     },
     {
       "id": "facility-130",
@@ -2709,13 +3221,17 @@
       "stateProvince": "IL",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 41.78586,
+      "longitude": -88.14729,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Research starter - exact address/current status pending",
       "sourceUrl": "https://www.mondelezinternational.com/United-States/",
-      "researchNotes": "Do not treat this parent as exhaustive yet."
+      "researchNotes": "Do not treat this parent as exhaustive yet.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Naperville, Illinois; GeoNames ID 4903279"
     },
     {
       "id": "facility-131",
@@ -2736,7 +3252,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.thecampbellscompany.com/contact/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "2041 CLAREMONT AVE, ASHLAND, OH, 44805"
     },
     {
       "id": "facility-132",
@@ -2757,7 +3277,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.thecampbellscompany.com/contact/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "200 MICHAEL ANGELO WAY, AUSTIN, TX, 78728"
     },
     {
       "id": "facility-133",
@@ -2778,7 +3302,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.thecampbellscompany.com/contact/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "3150 KETTLE WAY, BELOIT, WI, 53511"
     },
     {
       "id": "facility-134",
@@ -2799,7 +3327,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.thecampbellscompany.com/contact/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "1414 BLUE HILLS AVE, BLOOMFIELD, CT, 06002"
     },
     {
       "id": "facility-135",
@@ -2820,7 +3352,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.thecampbellscompany.com/contact/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "8600 SOUTH BLVD, CHARLOTTE, NC, 28273"
     },
     {
       "id": "facility-136",
@@ -2841,7 +3377,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.thecampbellscompany.com/contact/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "2195 N READING RD, DENVER, PA, 17517"
     },
     {
       "id": "facility-137",
@@ -2856,13 +3396,17 @@
       "stateProvince": "CA",
       "postalCode": "95620",
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 38.471699999211,
+      "longitude": -121.803858296129,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.thecampbellscompany.com/contact/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Non-exact street match",
+      "coordinateNote": "8380 PEDRICK RD, DIXON, CA, 95620"
     },
     {
       "id": "facility-138",
@@ -2883,7 +3427,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.thecampbellscompany.com/contact/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "230 2ND ST, DOWNERS GROVE, IL, 60515"
     },
     {
       "id": "facility-139",
@@ -2904,7 +3452,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.thecampbellscompany.com/contact/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "421 BOOT RD, DOWNINGTOWN, PA, 19335"
     },
     {
       "id": "facility-140",
@@ -2925,7 +3477,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.thecampbellscompany.com/contact/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "4625 W OAKWOOD PARK DR, FRANKLIN, WI, 53132"
     },
     {
       "id": "facility-141",
@@ -2946,7 +3502,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.thecampbellscompany.com/contact/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "1200 N BULLARD AVE, GOODYEAR, AZ, 85338"
     },
     {
       "id": "facility-142",
@@ -2967,7 +3527,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.thecampbellscompany.com/contact/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "1350 YORK ST, HANOVER, PA, 17331"
     },
     {
       "id": "facility-143",
@@ -2988,7 +3552,11 @@
       "ace": null,
       "verificationStatus": "Closure announced - verify active status",
       "sourceUrl": "https://www.thecampbellscompany.com/contact/",
-      "researchNotes": "Closure has been announced; confirm active status before using as an active strategic location."
+      "researchNotes": "Closure has been announced; confirm active status before using as an active strategic location.",
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "100 BREEDS HILL RD, HYANNIS, MA, 02601"
     },
     {
       "id": "facility-144",
@@ -3009,7 +3577,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.thecampbellscompany.com/contact/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "125 PEACELY ST, JEFFERSONVILLE, IN, 47130"
     },
     {
       "id": "facility-145",
@@ -3030,7 +3602,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.thecampbellscompany.com/contact/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "2222 INTERSTATE DR, LAKELAND, FL, 33805"
     },
     {
       "id": "facility-146",
@@ -3045,13 +3621,17 @@
       "stateProvince": "NC",
       "postalCode": "28364",
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 34.775499728168,
+      "longitude": -79.32553172153,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.thecampbellscompany.com/contact/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Non-exact street match",
+      "coordinateNote": "2120 STATE HWY 71 N, MAXTON, NC, 28364"
     },
     {
       "id": "facility-147",
@@ -3072,7 +3652,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.thecampbellscompany.com/contact/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "500 W EDGERTON AVE, MILWAUKEE, WI, 53207"
     },
     {
       "id": "facility-148",
@@ -3087,13 +3671,17 @@
       "stateProvince": "OH",
       "postalCode": "43545",
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 41.39227,
+      "longitude": -84.12522,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.thecampbellscompany.com/contact/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Napoleon, Ohio; GeoNames ID 5164057"
     },
     {
       "id": "facility-149",
@@ -3108,13 +3696,17 @@
       "stateProvince": "TX",
       "postalCode": "75461",
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 33.684771937241,
+      "longitude": -95.570562156569,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.thecampbellscompany.com/contact/",
-      "researchNotes": "Site remains active for sauce production after soup production ended."
+      "researchNotes": "Site remains active for sauce production after soup production ended.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Non-exact street match",
+      "coordinateNote": "500 NW LOOP 286, PARIS, TX, 75460"
     },
     {
       "id": "facility-150",
@@ -3129,13 +3721,17 @@
       "stateProvince": "UT",
       "postalCode": "84333",
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 41.92271,
+      "longitude": -111.81356,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.thecampbellscompany.com/contact/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Richmond, Utah; GeoNames ID 5780388"
     },
     {
       "id": "facility-151",
@@ -3156,7 +3752,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.thecampbellscompany.com/contact/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "3125 KETTLE CT SE, SALEM, OR, 97301"
     },
     {
       "id": "facility-152",
@@ -3177,7 +3777,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.thecampbellscompany.com/contact/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "750 INDUSTRIAL DR, STOCKTON, CA, 95206"
     },
     {
       "id": "facility-153",
@@ -3198,7 +3802,11 @@
       "ace": null,
       "verificationStatus": "Closure announced - verify active status",
       "sourceUrl": "https://www.thecampbellscompany.com/contact/",
-      "researchNotes": "Closure has been announced; confirm active status before using as an active strategic location."
+      "researchNotes": "Closure has been announced; confirm active status before using as an active strategic location.",
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "19480 SW 97TH AVE, TUALATIN, OR, 97062"
     },
     {
       "id": "facility-154",
@@ -3213,13 +3821,17 @@
       "stateProvince": "OH",
       "postalCode": "44890",
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 41.05290173703,
+      "longitude": -82.703997880593,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.thecampbellscompany.com/contact/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Non-exact street match",
+      "coordinateNote": "3320 STATE RTE 103, WILLARD, OH, 44890"
     },
     {
       "id": "facility-155",
@@ -3240,7 +3852,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://careers.conagrabrands.com/us/en/plants",
-      "researchNotes": "Verified-address starter subset; Conagra has a much larger domestic manufacturing network."
+      "researchNotes": "Verified-address starter subset; Conagra has a much larger domestic manufacturing network.",
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "7579 GEORGETOWN RD, INDIANAPOLIS, IN, 46268"
     },
     {
       "id": "facility-156",
@@ -3261,7 +3877,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://careers.conagrabrands.com/us/en/plants",
-      "researchNotes": "Verified-address starter subset; Conagra has a much larger domestic manufacturing network."
+      "researchNotes": "Verified-address starter subset; Conagra has a much larger domestic manufacturing network.",
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "4300 W 62ND ST, INDIANAPOLIS, IN, 46268"
     },
     {
       "id": "facility-157",
@@ -3282,7 +3902,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://careers.conagrabrands.com/us/en/plants",
-      "researchNotes": "Verified-address starter subset; Conagra has a much larger domestic manufacturing network."
+      "researchNotes": "Verified-address starter subset; Conagra has a much larger domestic manufacturing network.",
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "12650 WESTPORT RD, LOUISVILLE, KY, 40245"
     },
     {
       "id": "facility-158",
@@ -3303,7 +3927,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://careers.conagrabrands.com/us/en/plants",
-      "researchNotes": "Verified-address starter subset; Conagra has a much larger domestic manufacturing network."
+      "researchNotes": "Verified-address starter subset; Conagra has a much larger domestic manufacturing network.",
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "801 DYE MILL RD, TROY, OH, 45373"
     },
     {
       "id": "facility-159",
@@ -3318,13 +3946,17 @@
       "stateProvince": "IN",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 40.10532,
+      "longitude": -85.68025,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Research starter - exact address pending",
       "sourceUrl": "https://www.nestle.com/about/locations",
-      "researchNotes": "Nestlé's North American manufacturing network is much larger; full address-level extraction remains open."
+      "researchNotes": "Nestlé's North American manufacturing network is much larger; full address-level extraction remains open.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Anderson, Indiana; GeoNames ID 4917592"
     },
     {
       "id": "facility-160",
@@ -3339,13 +3971,17 @@
       "stateProvince": "WI",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 42.67807,
+      "longitude": -88.2762,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Research starter - exact address pending",
       "sourceUrl": "https://www.nestle.com/about/locations",
-      "researchNotes": "Nestlé's North American manufacturing network is much larger; full address-level extraction remains open."
+      "researchNotes": "Nestlé's North American manufacturing network is much larger; full address-level extraction remains open.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Burlington, Wisconsin; GeoNames ID 5247214"
     },
     {
       "id": "facility-161",
@@ -3360,13 +3996,17 @@
       "stateProvince": "OH",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 41.4995,
+      "longitude": -81.69541,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Research starter - exact address pending",
       "sourceUrl": "https://www.nestle.com/about/locations",
-      "researchNotes": "Nestlé's North American manufacturing network is much larger; full address-level extraction remains open."
+      "researchNotes": "Nestlé's North American manufacturing network is much larger; full address-level extraction remains open.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Cleveland, Ohio; GeoNames ID 5150529"
     },
     {
       "id": "facility-162",
@@ -3381,13 +4021,17 @@
       "stateProvince": "IA",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 41.52364,
+      "longitude": -90.57764,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Research starter - exact address pending",
       "sourceUrl": "https://www.nestle.com/about/locations",
-      "researchNotes": "Nestlé's North American manufacturing network is much larger; full address-level extraction remains open."
+      "researchNotes": "Nestlé's North American manufacturing network is much larger; full address-level extraction remains open.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Davenport, Iowa; GeoNames ID 4853423"
     },
     {
       "id": "facility-163",
@@ -3402,13 +4046,17 @@
       "stateProvince": "NC",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 36.48847,
+      "longitude": -79.7667,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Research starter - exact address pending",
       "sourceUrl": "https://www.nestle.com/about/locations",
-      "researchNotes": "Nestlé's North American manufacturing network is much larger; full address-level extraction remains open."
+      "researchNotes": "Nestlé's North American manufacturing network is much larger; full address-level extraction remains open.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Eden, North Carolina; GeoNames ID 4464873"
     },
     {
       "id": "facility-164",
@@ -3423,13 +4071,17 @@
       "stateProvince": "GA",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 34.35288,
+      "longitude": -82.93209,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Research starter - exact address pending",
       "sourceUrl": "https://www.nestle.com/about/locations",
-      "researchNotes": "Nestlé's North American manufacturing network is much larger; full address-level extraction remains open."
+      "researchNotes": "Nestlé's North American manufacturing network is much larger; full address-level extraction remains open.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Hartwell, Georgia; GeoNames ID 4199572"
     },
     {
       "id": "facility-165",
@@ -3444,13 +4096,17 @@
       "stateProvince": "MO",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 38.62727,
+      "longitude": -90.19789,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Research starter - exact address pending",
       "sourceUrl": "https://www.nestle.com/about/locations",
-      "researchNotes": "Nestlé's North American manufacturing network is much larger; full address-level extraction remains open."
+      "researchNotes": "Nestlé's North American manufacturing network is much larger; full address-level extraction remains open.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "St. Louis, Missouri; GeoNames ID 4407066"
     },
     {
       "id": "facility-166",
@@ -3465,13 +4121,17 @@
       "stateProvince": "OH",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 41.38978,
+      "longitude": -81.44123,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Research starter - exact address pending",
       "sourceUrl": "https://www.nestle.com/about/locations",
-      "researchNotes": "Nestlé's North American manufacturing network is much larger; full address-level extraction remains open."
+      "researchNotes": "Nestlé's North American manufacturing network is much larger; full address-level extraction remains open.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Solon, Ohio; GeoNames ID 5172387"
     },
     {
       "id": "facility-167",
@@ -3492,7 +4152,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.silgancontainers.com/sales-inquiries/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "2200 WILBUR AVE, ANTIOCH, CA, 94509"
     },
     {
       "id": "facility-168",
@@ -3513,7 +4177,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.silgancontainers.com/sales-inquiries/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "4210 YOSEMITE BLVD, MODESTO, CA, 95357"
     },
     {
       "id": "facility-169",
@@ -3534,7 +4202,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.silgancontainers.com/sales-inquiries/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "430 DOHERTY AVE, MODESTO, CA, 95354"
     },
     {
       "id": "facility-170",
@@ -3555,7 +4227,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.silgancontainers.com/sales-inquiries/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "567 S RIVERSIDE DR, MODESTO, CA, 95354"
     },
     {
       "id": "facility-171",
@@ -3576,7 +4252,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.silgancontainers.com/sales-inquiries/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "3250 PATTERSON RD, RIVERBANK, CA, 95367"
     },
     {
       "id": "facility-172",
@@ -3597,7 +4277,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.silgancontainers.com/sales-inquiries/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "6200 FRANKLIN BLVD, SACRAMENTO, CA, 95824"
     },
     {
       "id": "facility-173",
@@ -3618,7 +4302,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.silgancontainers.com/sales-inquiries/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "324 W MAIN ST, HOOPESTON, IL, 60942"
     },
     {
       "id": "facility-174",
@@ -3639,7 +4327,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.silgancontainers.com/sales-inquiries/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "400 N 15TH ST, ROCHELLE, IL, 61068"
     },
     {
       "id": "facility-175",
@@ -3660,7 +4352,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.silgancontainers.com/sales-inquiries/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "2501 165TH ST, HAMMOND, IN, 46320"
     },
     {
       "id": "facility-176",
@@ -3681,7 +4377,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.silgancontainers.com/sales-inquiries/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "3725 DIVISION ST, BURLINGTON, IA, 52601"
     },
     {
       "id": "facility-177",
@@ -3702,7 +4402,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.silgancontainers.com/sales-inquiries/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "3591 MAPLE DR, FORT DODGE, IA, 50501"
     },
     {
       "id": "facility-178",
@@ -3723,7 +4427,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.silgancontainers.com/sales-inquiries/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "2326 263RD AVE, FORT MADISON, IA, 52627"
     },
     {
       "id": "facility-179",
@@ -3738,13 +4446,17 @@
       "stateProvince": "MN",
       "postalCode": "55378",
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 44.780998207338,
+      "longitude": -93.336507201048,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.silgancontainers.com/sales-inquiries/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Non-exact street match",
+      "coordinateNote": "12130 LYNN AVE, SAVAGE, MN, 55378"
     },
     {
       "id": "facility-180",
@@ -3765,7 +4477,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.silgancontainers.com/sales-inquiries/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "2115 SW LOWER LAKE RD, SAINT JOSEPH, MO, 64504"
     },
     {
       "id": "facility-181",
@@ -3786,7 +4502,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.silgancontainers.com/sales-inquiries/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "135 NATIONAL RD, EDISON, NJ, 08817"
     },
     {
       "id": "facility-182",
@@ -3801,13 +4521,17 @@
       "stateProvince": "NC",
       "postalCode": "28364",
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 34.775499728168,
+      "longitude": -79.32553172153,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.silgancontainers.com/sales-inquiries/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Non-exact street match",
+      "coordinateNote": "2120 STATE HWY 71 N, MAXTON, NC, 28364"
     },
     {
       "id": "facility-183",
@@ -3822,13 +4546,17 @@
       "stateProvince": "OH",
       "postalCode": "43545",
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 41.39227,
+      "longitude": -84.12522,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.silgancontainers.com/sales-inquiries/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Napoleon, Ohio; GeoNames ID 5164057"
     },
     {
       "id": "facility-184",
@@ -3849,7 +4577,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.silgancontainers.com/sales-inquiries/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "8201 INDUSTRIAL BLVD, BREINIGSVILLE, PA, 18031"
     },
     {
       "id": "facility-185",
@@ -3870,7 +4602,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.silgancontainers.com/sales-inquiries/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "1531 CAMP CREEK RD, LANCASTER, SC, 29720"
     },
     {
       "id": "facility-186",
@@ -3891,7 +4627,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.silgancontainers.com/sales-inquiries/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "1226 MANUFACTURERS ROW, TRENTON, TN, 38382"
     },
     {
       "id": "facility-187",
@@ -3906,13 +4646,17 @@
       "stateProvince": "TX",
       "postalCode": "75461",
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 33.684771937241,
+      "longitude": -95.570562156569,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.silgancontainers.com/sales-inquiries/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Non-exact street match",
+      "coordinateNote": "500 NW LOOP 286, PARIS, TX, 75460"
     },
     {
       "id": "facility-188",
@@ -3933,7 +4677,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.silgancontainers.com/sales-inquiries/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "45 E 3RD AVE, TOPPENISH, WA, 98948"
     },
     {
       "id": "facility-189",
@@ -3948,13 +4696,17 @@
       "stateProvince": "WI",
       "postalCode": "53144",
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 42.492857822128,
+      "longitude": -87.822021464507,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.silgancontainers.com/sales-inquiries/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Non-exact street match",
+      "coordinateNote": "2602 128TH ST, KENOSHA, WI, 53158"
     },
     {
       "id": "facility-190",
@@ -3975,7 +4727,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.silgancontainers.com/sales-inquiries/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "N90W14600 COMMERCE DR, MENOMONEE FALLS, WI, 53051"
     },
     {
       "id": "facility-191",
@@ -3990,13 +4746,17 @@
       "stateProvince": "WI",
       "postalCode": "54751",
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 44.898896360646,
+      "longitude": -91.87233653056,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.silgancontainers.com/sales-inquiries/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Non-exact street match",
+      "coordinateNote": "1416 INDIANHEAD DR E, MENOMONIE, WI, 54751"
     },
     {
       "id": "facility-192",
@@ -4017,7 +4777,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.silgancontainers.com/sales-inquiries/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "520 W 2ND ST, OCONOMOWOC, WI, 53066"
     },
     {
       "id": "facility-193",
@@ -4038,7 +4802,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.silgancontainers.com/sales-inquiries/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "1400 PLOVER RD, PLOVER, WI, 54467"
     },
     {
       "id": "facility-194",
@@ -4053,13 +4821,17 @@
       "stateProvince": "PR",
       "postalCode": "00771",
       "country": "Puerto Rico",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 18.18301,
+      "longitude": -65.86627,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.silgancontainers.com/sales-inquiries/",
-      "researchNotes": null
+      "researchNotes": null,
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Las Piedras, Las Piedras; GeoNames ID 4565980"
     },
     {
       "id": "facility-195",
@@ -4074,13 +4846,17 @@
       "stateProvince": "IL",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 40.11642,
+      "longitude": -88.24338,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Research starter - exact address pending",
       "sourceUrl": "https://www.kraftheinzcompany.com/",
-      "researchNotes": "Kraft Heinz operates a large U.S. plant network; full address extraction remains open."
+      "researchNotes": "Kraft Heinz operates a large U.S. plant network; full address extraction remains open.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Champaign, Illinois; GeoNames ID 4887158"
     },
     {
       "id": "facility-196",
@@ -4095,13 +4871,17 @@
       "stateProvince": "OH",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 41.35033,
+      "longitude": -83.12186,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Research starter - exact address pending",
       "sourceUrl": "https://www.kraftheinzcompany.com/",
-      "researchNotes": "Kraft Heinz operates a large U.S. plant network; full address extraction remains open."
+      "researchNotes": "Kraft Heinz operates a large U.S. plant network; full address extraction remains open.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Fremont, Ohio; GeoNames ID 5155207"
     },
     {
       "id": "facility-197",
@@ -4116,13 +4896,17 @@
       "stateProvince": "MO",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 37.21533,
+      "longitude": -93.29824,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Research starter - exact address pending",
       "sourceUrl": "https://www.kraftheinzcompany.com/",
-      "researchNotes": "Kraft Heinz operates a large U.S. plant network; full address extraction remains open."
+      "researchNotes": "Kraft Heinz operates a large U.S. plant network; full address extraction remains open.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Springfield, Missouri; GeoNames ID 4409896"
     },
     {
       "id": "facility-198",
@@ -4137,13 +4921,17 @@
       "stateProvince": "TX",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 32.91262,
+      "longitude": -96.63888,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Research starter - exact address pending",
       "sourceUrl": "https://www.kraftheinzcompany.com/",
-      "researchNotes": "Kraft Heinz operates a large U.S. plant network; full address extraction remains open."
+      "researchNotes": "Kraft Heinz operates a large U.S. plant network; full address extraction remains open.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Garland, Texas; GeoNames ID 4693003"
     },
     {
       "id": "facility-199",
@@ -4158,13 +4946,17 @@
       "stateProvince": "DE",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 39.15817,
+      "longitude": -75.52437,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Research starter - exact address pending",
       "sourceUrl": "https://www.kraftheinzcompany.com/",
-      "researchNotes": "Kraft Heinz operates a large U.S. plant network; full address extraction remains open."
+      "researchNotes": "Kraft Heinz operates a large U.S. plant network; full address extraction remains open.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Dover, Delaware; GeoNames ID 4142290"
     },
     {
       "id": "facility-200",
@@ -4179,13 +4971,17 @@
       "stateProvince": "SC",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 34.27458,
+      "longitude": -81.61872,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Research starter - exact address pending",
       "sourceUrl": "https://www.kraftheinzcompany.com/",
-      "researchNotes": "Kraft Heinz operates a large U.S. plant network; full address extraction remains open."
+      "researchNotes": "Kraft Heinz operates a large U.S. plant network; full address extraction remains open.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Newberry, South Carolina; GeoNames ID 4589207"
     },
     {
       "id": "facility-201",
@@ -4200,13 +4996,17 @@
       "stateProvince": "OH",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 40.79672,
+      "longitude": -81.52151,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Research starter - exact address pending",
       "sourceUrl": "https://www.kraftheinzcompany.com/",
-      "researchNotes": "Kraft Heinz operates a large U.S. plant network; full address extraction remains open."
+      "researchNotes": "Kraft Heinz operates a large U.S. plant network; full address extraction remains open.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Massillon, Ohio; GeoNames ID 5162097"
     },
     {
       "id": "facility-202",
@@ -4221,13 +5021,17 @@
       "stateProvince": "FL",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 30.33218,
+      "longitude": -81.65565,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Research starter - exact address pending",
       "sourceUrl": "https://www.kraftheinzcompany.com/",
-      "researchNotes": "Kraft Heinz operates a large U.S. plant network; full address extraction remains open."
+      "researchNotes": "Kraft Heinz operates a large U.S. plant network; full address extraction remains open.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Jacksonville, Florida; GeoNames ID 4160021"
     },
     {
       "id": "facility-203",
@@ -4248,7 +5052,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://cocacolaunited.com/production/",
-      "researchNotes": "Independent Coca-Cola bottler production facility mapped under The Coca-Cola Company strategic parent."
+      "researchNotes": "Independent Coca-Cola bottler production facility mapped under The Coca-Cola Company strategic parent.",
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "2355 SULLIVAN RD, COLLEGE PARK, GA, 30337"
     },
     {
       "id": "facility-204",
@@ -4269,7 +5077,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://cocacolaunited.com/production/",
-      "researchNotes": "Independent Coca-Cola bottler production facility mapped under The Coca-Cola Company strategic parent."
+      "researchNotes": "Independent Coca-Cola bottler production facility mapped under The Coca-Cola Company strategic parent.",
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "1091 INDUSTRIAL PARK DR, MARIETTA, GA, 30062"
     },
     {
       "id": "facility-205",
@@ -4290,7 +5102,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://cocacolaunited.com/production/",
-      "researchNotes": "Independent Coca-Cola bottler production facility mapped under The Coca-Cola Company strategic parent."
+      "researchNotes": "Independent Coca-Cola bottler production facility mapped under The Coca-Cola Company strategic parent.",
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "174 REFRESHMENT LN SW, CLEVELAND, TN, 37311"
     },
     {
       "id": "facility-206",
@@ -4311,7 +5127,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://cocacolaunited.com/production/",
-      "researchNotes": "Independent Coca-Cola bottler production facility mapped under The Coca-Cola Company strategic parent."
+      "researchNotes": "Independent Coca-Cola bottler production facility mapped under The Coca-Cola Company strategic parent.",
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "300 COCA-COLA RD, MONTGOMERY, AL, 36105"
     },
     {
       "id": "facility-207",
@@ -4332,7 +5152,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://cocacolaunited.com/production/",
-      "researchNotes": "Independent Coca-Cola bottler production facility mapped under The Coca-Cola Company strategic parent."
+      "researchNotes": "Independent Coca-Cola bottler production facility mapped under The Coca-Cola Company strategic parent.",
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "4000 AMNICOLA HWY, CHATTANOOGA, TN, 37406"
     },
     {
       "id": "facility-208",
@@ -4353,7 +5177,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://cocacolaunited.com/production/",
-      "researchNotes": "Independent Coca-Cola bottler production facility mapped under The Coca-Cola Company strategic parent."
+      "researchNotes": "Independent Coca-Cola bottler production facility mapped under The Coca-Cola Company strategic parent.",
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "5601 CITRUS BLVD, HARAHAN, LA, 70123"
     },
     {
       "id": "facility-209",
@@ -4374,7 +5202,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://cocacolaunited.com/production/",
-      "researchNotes": "Independent Coca-Cola bottler production facility mapped under The Coca-Cola Company strategic parent."
+      "researchNotes": "Independent Coca-Cola bottler production facility mapped under The Coca-Cola Company strategic parent.",
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "5300 COCA COLA RD, MOBILE, AL, 36619"
     },
     {
       "id": "facility-210",
@@ -4395,7 +5227,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://cocacolaunited.com/production/",
-      "researchNotes": "Independent Coca-Cola bottler production facility mapped under The Coca-Cola Company strategic parent."
+      "researchNotes": "Independent Coca-Cola bottler production facility mapped under The Coca-Cola Company strategic parent.",
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "9696 PLANK RD, BATON ROUGE, LA, 70811"
     },
     {
       "id": "facility-211",
@@ -4416,7 +5252,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.swirecc.com/locations",
-      "researchNotes": "Independent Coca-Cola bottler production plant."
+      "researchNotes": "Independent Coca-Cola bottler production plant.",
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "2269 S 3270 W, WEST VALLEY CITY, UT, 84119"
     },
     {
       "id": "facility-212",
@@ -4431,13 +5271,17 @@
       "stateProvince": "AZ",
       "postalCode": "85283",
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 33.349134149831,
+      "longitude": -111.967945054298,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.swirecc.com/locations",
-      "researchNotes": "Independent Coca-Cola bottler production plant."
+      "researchNotes": "Independent Coca-Cola bottler production plant.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Non-exact street match",
+      "coordinateNote": "1850 W ELLIOT RD, TEMPE, AZ, 85284"
     },
     {
       "id": "facility-213",
@@ -4458,7 +5302,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.swirecc.com/locations",
-      "researchNotes": "Independent Coca-Cola bottler production plant."
+      "researchNotes": "Independent Coca-Cola bottler production plant.",
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "2145 E 40TH AVE, DENVER, CO, 80205"
     },
     {
       "id": "facility-214",
@@ -4479,7 +5327,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.swirecc.com/locations",
-      "researchNotes": "Independent Coca-Cola bottler production plant."
+      "researchNotes": "Independent Coca-Cola bottler production plant.",
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "29900 SW KINSMAN RD, WILSONVILLE, OR, 97070"
     },
     {
       "id": "facility-215",
@@ -4500,7 +5352,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.swirecc.com/locations",
-      "researchNotes": "Independent Coca-Cola bottler production plant."
+      "researchNotes": "Independent Coca-Cola bottler production plant.",
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "1150 124TH AVE NE, BELLEVUE, WA, 98005"
     },
     {
       "id": "facility-216",
@@ -4515,13 +5371,17 @@
       "stateProvince": "ID",
       "postalCode": "83619",
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 44.004893987001,
+      "longitude": -116.921694796566,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.swirecc.com/locations",
-      "researchNotes": "Independent Coca-Cola bottler production plant."
+      "researchNotes": "Independent Coca-Cola bottler production plant.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Non-exact street match",
+      "coordinateNote": "500 SW 7TH ST, FRUITLAND, ID, 83619"
     },
     {
       "id": "facility-217",
@@ -4536,13 +5396,17 @@
       "stateProvince": "CO",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 38.83388,
+      "longitude": -104.82136,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Planned / under construction - official source",
       "sourceUrl": "https://www.swirecc.com/",
-      "researchNotes": "Groundbreaking announced in 2026; keep off active-plant layer until operations begin."
+      "researchNotes": "Groundbreaking announced in 2026; keep off active-plant layer until operations begin.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Colorado Springs, Colorado; GeoNames ID 5417598"
     },
     {
       "id": "facility-218",
@@ -4563,7 +5427,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://reyescocacola.com/about-us/",
-      "researchNotes": "Independent Coca-Cola bottler; facility is identified as a production center by Reyes."
+      "researchNotes": "Independent Coca-Cola bottler; facility is identified as a production center by Reyes.",
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "1334 S CENTRAL AVE, LOS ANGELES, CA, 90021"
     },
     {
       "id": "facility-219",
@@ -4584,7 +5452,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://reyescocacola.com/about-us/",
-      "researchNotes": "Independent Coca-Cola bottler; facility is identified as a production center by Reyes."
+      "researchNotes": "Independent Coca-Cola bottler; facility is identified as a production center by Reyes.",
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "14655 WICKS BLVD, SAN LEANDRO, CA, 94577"
     },
     {
       "id": "facility-220",
@@ -4605,7 +5477,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://reyescocacola.com/about-us/",
-      "researchNotes": "Independent Coca-Cola bottler; facility is identified as a production center by Reyes."
+      "researchNotes": "Independent Coca-Cola bottler; facility is identified as a production center by Reyes.",
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "8729 CLETA ST, DOWNEY, CA, 90241"
     },
     {
       "id": "facility-221",
@@ -4626,7 +5502,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://reyescocacola.com/about-us/",
-      "researchNotes": "Independent Coca-Cola bottler; facility is identified as a production center by Reyes."
+      "researchNotes": "Independent Coca-Cola bottler; facility is identified as a production center by Reyes.",
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "1440 BUTTERWORTH ST SW, GRAND RAPIDS, MI, 49504"
     },
     {
       "id": "facility-222",
@@ -4647,7 +5527,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://reyescocacola.com/about-us/",
-      "researchNotes": "Independent Coca-Cola bottler; facility is identified as a production center by Reyes."
+      "researchNotes": "Independent Coca-Cola bottler; facility is identified as a production center by Reyes.",
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "7400 N OAK PARK AVE, NILES, IL, 60714"
     },
     {
       "id": "facility-223",
@@ -4668,7 +5552,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://reyescocacola.com/about-us/",
-      "researchNotes": "Independent Coca-Cola bottler; facility is identified as a production center by Reyes."
+      "researchNotes": "Independent Coca-Cola bottler; facility is identified as a production center by Reyes.",
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "12200 S LARAMIE AVE, ALSIP, IL, 60803"
     },
     {
       "id": "facility-224",
@@ -4689,7 +5577,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://reyescocacola.com/about-us/",
-      "researchNotes": "Independent Coca-Cola bottler; facility is identified as a production center by Reyes."
+      "researchNotes": "Independent Coca-Cola bottler; facility is identified as a production center by Reyes.",
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "11800 W BROWN DEER RD, MILWAUKEE, WI, 53224"
     },
     {
       "id": "facility-225",
@@ -4710,7 +5602,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://reyescocacola.com/about-us/",
-      "researchNotes": "Independent Coca-Cola bottler; facility is identified as a production center by Reyes."
+      "researchNotes": "Independent Coca-Cola bottler; facility is identified as a production center by Reyes.",
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "2750 EAGANDALE BLVD, EAGAN, MN, 55121"
     },
     {
       "id": "facility-226",
@@ -4731,7 +5627,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.libertycoke.com/contact-us/",
-      "researchNotes": "Liberty identifies Elmsford as Production & Distribution."
+      "researchNotes": "Liberty identifies Elmsford as Production & Distribution.",
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "115 FAIRVIEW PARK DR, ELMSFORD, NY, 10523"
     },
     {
       "id": "facility-227",
@@ -4746,13 +5646,17 @@
       "stateProvince": "PA",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 39.95238,
+      "longitude": -75.16362,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified production city - street address pending",
       "sourceUrl": "https://www.libertycoke.com/contact-us/",
-      "researchNotes": "Official Liberty contact page labels Philadelphia as Production, Sales & Distribution."
+      "researchNotes": "Official Liberty contact page labels Philadelphia as Production, Sales & Distribution.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Philadelphia, Pennsylvania; GeoNames ID 4560349"
     },
     {
       "id": "facility-228",
@@ -4767,13 +5671,17 @@
       "stateProvince": "NJ",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 39.96706,
+      "longitude": -74.94267,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified production city - street address pending",
       "sourceUrl": "https://www.libertycoke.com/contact-us/",
-      "researchNotes": "Official Liberty contact page labels Moorestown as a Production Plant."
+      "researchNotes": "Official Liberty contact page labels Moorestown as a Production Plant.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Moorestown, New Jersey; GeoNames ID 4503106"
     },
     {
       "id": "facility-229",
@@ -4794,7 +5702,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.atlanticbottling.com/locations/",
-      "researchNotes": "Independent Coca-Cola bottler production center."
+      "researchNotes": "Independent Coca-Cola bottler production center.",
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "7 LOCUST ST, ATLANTIC, IA, 50022"
     },
     {
       "id": "facility-230",
@@ -4815,7 +5727,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.heartlandcocacola.com/contact-us/",
-      "researchNotes": "Heartland opened its new Olathe Production Campus in 2024; address is Heartland's official Olathe headquarters/mailing address and should be geocoded/spot-checked against the production-campus parcel before final territory lock."
+      "researchNotes": "Heartland opened its new Olathe Production Campus in 2024; address is Heartland's official Olathe headquarters/mailing address and should be geocoded/spot-checked against the production-campus parcel before final territory lock.",
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "17100 S HEDGE LN, OLATHE, KS, 66062"
     },
     {
       "id": "facility-231",
@@ -4830,13 +5746,17 @@
       "stateProvince": "NC",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 35.22709,
+      "longitude": -80.84313,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified current manufacturing site - official source",
       "sourceUrl": "https://www.cokeconsolidated.com/",
-      "researchNotes": "Current manufacturing facility confirmed on 2026 company site."
+      "researchNotes": "Current manufacturing facility confirmed on 2026 company site.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Charlotte, North Carolina; GeoNames ID 4460243"
     },
     {
       "id": "facility-232",
@@ -4851,13 +5771,17 @@
       "stateProvince": "VA",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 37.52348,
+      "longitude": -77.31581,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified current manufacturing site - official source",
       "sourceUrl": "https://www.cokeconsolidated.com/",
-      "researchNotes": "Current/modern company content references Sandston manufacturing facility."
+      "researchNotes": "Current/modern company content references Sandston manufacturing facility.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Sandston, Virginia; GeoNames ID 4784352"
     },
     {
       "id": "facility-233",
@@ -4872,13 +5796,17 @@
       "stateProvince": "MD",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 38.99067,
+      "longitude": -77.02609,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified current manufacturing site - official source",
       "sourceUrl": "https://www.cokeconsolidated.com/",
-      "researchNotes": "Current 2026 company page identifies Silver Spring production facility."
+      "researchNotes": "Current 2026 company page identifies Silver Spring production facility.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Silver Spring, Maryland; GeoNames ID 4369596"
     },
     {
       "id": "facility-234",
@@ -4893,13 +5821,17 @@
       "stateProvince": "MD",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 39.29038,
+      "longitude": -76.61219,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified current manufacturing site - official source",
       "sourceUrl": "https://www.cokeconsolidated.com/",
-      "researchNotes": "Current 2026 company page identifies Baltimore Production Center."
+      "researchNotes": "Current 2026 company page identifies Baltimore Production Center.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Baltimore, Maryland; GeoNames ID 4347778"
     },
     {
       "id": "facility-235",
@@ -4920,7 +5852,11 @@
       "ace": null,
       "verificationStatus": "Verified current manufacturing site - official source",
       "sourceUrl": "https://www.cokeconsolidated.com/",
-      "researchNotes": "Current 2026 investment announcement; exact street from company/current facility reference."
+      "researchNotes": "Current 2026 investment announcement; exact street from company/current facility reference.",
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "5000 W 25TH ST, INDIANAPOLIS, IN, 46224"
     },
     {
       "id": "facility-236",
@@ -4935,13 +5871,17 @@
       "stateProvince": "IN",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 40.43449,
+      "longitude": -84.97775,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Manufacturing site identified - current street/status final-check",
       "sourceUrl": "https://www.cokeconsolidated.com/",
-      "researchNotes": "Regional manufacturing facility acquired into Consolidated system; current status needs final address validation."
+      "researchNotes": "Regional manufacturing facility acquired into Consolidated system; current status needs final address validation.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Portland, Indiana; GeoNames ID 4925037"
     },
     {
       "id": "facility-237",
@@ -4956,13 +5896,17 @@
       "stateProvince": "OH",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 39.12711,
+      "longitude": -84.51439,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Manufacturing site identified - current street/status final-check",
       "sourceUrl": "https://www.cokeconsolidated.com/",
-      "researchNotes": "Regional manufacturing facility in Consolidated system; exact street pending."
+      "researchNotes": "Regional manufacturing facility in Consolidated system; exact street pending.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Cincinnati, Ohio; GeoNames ID 4508722"
     },
     {
       "id": "facility-238",
@@ -4983,7 +5927,11 @@
       "ace": null,
       "verificationStatus": "Verified current manufacturing site - official source",
       "sourceUrl": "https://www.cokeconsolidated.com/",
-      "researchNotes": "Current 2025 company investment announcement gives campus address."
+      "researchNotes": "Current 2025 company investment announcement gives campus address.",
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "1882 HIGHLAND RD, TWINSBURG, OH, 44087"
     },
     {
       "id": "facility-239",
@@ -4998,13 +5946,17 @@
       "stateProvince": "AR",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 35.14648,
+      "longitude": -90.18454,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified current manufacturing site - official source",
       "sourceUrl": "https://www.cokeconsolidated.com/",
-      "researchNotes": "Current company investment announcement identifies manufacturing facility."
+      "researchNotes": "Current company investment announcement identifies manufacturing facility.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "West Memphis, Arkansas; GeoNames ID 4135865"
     },
     {
       "id": "facility-240",
@@ -5019,13 +5971,17 @@
       "stateProvince": "TN",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 35.14953,
+      "longitude": -90.04898,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Manufacturing site identified - current street/status final-check",
       "sourceUrl": "https://www.cokeconsolidated.com/",
-      "researchNotes": "Facility entered Consolidated manufacturing network through system refranchising; exact current address/status to final-verify."
+      "researchNotes": "Facility entered Consolidated manufacturing network through system refranchising; exact current address/status to final-verify.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Memphis, Tennessee; GeoNames ID 4641239"
     },
     {
       "id": "facility-241",
@@ -5040,13 +5996,17 @@
       "stateProvince": "NC",
       "postalCode": "27529",
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 35.71126,
+      "longitude": -78.61417,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://pepsibottlingventures.com/about-us/our-locations/",
-      "researchNotes": "PBV history says Garner is its largest production facility."
+      "researchNotes": "PBV history says Garner is its largest production facility.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Garner, North Carolina; GeoNames ID 4467657"
     },
     {
       "id": "facility-242",
@@ -5067,7 +6027,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://pepsibottlingventures.com/about-us/our-locations/",
-      "researchNotes": "PBV explicitly calls Winston-Salem a production facility."
+      "researchNotes": "PBV explicitly calls Winston-Salem a production facility.",
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "3425 MYER LEE DR, WINSTON SALEM, NC, 27101"
     },
     {
       "id": "facility-243",
@@ -5088,7 +6052,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://pepsibottlingventures.com/about-us/our-locations/",
-      "researchNotes": "PBV sustainability page explicitly calls WOW a production facility."
+      "researchNotes": "PBV sustainability page explicitly calls WOW a production facility.",
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "390 BUS PARK DR, WINSTON SALEM, NC, 27107"
     },
     {
       "id": "facility-244",
@@ -5109,7 +6077,11 @@
       "ace": null,
       "verificationStatus": "Known gap - PBV states 4 production facilities; fourth site not yet conclusively identified",
       "sourceUrl": "https://pepsibottlingventures.com/2023/05/03/pbv-wins-prestigious-platinum-and-gold-caleb-bradham-awards-for-quality-food-safety-excellence/",
-      "researchNotes": "PBV says Garner plus two Winston-Salem facilities are three of its four production facilities. This placeholder prevents the gap from being silently lost."
+      "researchNotes": "PBV says Garner plus two Winston-Salem facilities are three of its four production facilities. This placeholder prevents the gap from being silently lost.",
+      "coordinateStatus": "Unresolved",
+      "coordinateMethod": "No street address supplied",
+      "coordinateQuality": "City-level research required",
+      "coordinateNote": "Latitude/longitude intentionally left blank"
     },
     {
       "id": "facility-245",
@@ -5130,7 +6102,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://gjpepsi.com/locations/",
-      "researchNotes": "Independent Pepsi bottler; G&J identifies production operations at these locations."
+      "researchNotes": "Independent Pepsi bottler; G&J identifies production operations at these locations.",
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "4587 GALLIA PIKE, FRANKLIN FURNACE, OH, 45629"
     },
     {
       "id": "facility-246",
@@ -5151,7 +6127,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://gjpepsi.com/locations/",
-      "researchNotes": "Independent Pepsi bottler; G&J identifies production operations at these locations."
+      "researchNotes": "Independent Pepsi bottler; G&J identifies production operations at these locations.",
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "2580 BOBMEYER RD, HAMILTON, OH, 45015"
     },
     {
       "id": "facility-247",
@@ -5172,7 +6152,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://gjpepsi.com/locations/",
-      "researchNotes": "Independent Pepsi bottler; G&J identifies production operations at these locations."
+      "researchNotes": "Independent Pepsi bottler; G&J identifies production operations at these locations.",
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "1125 PROGRESS WAY, MAYSVILLE, KY, 41056"
     },
     {
       "id": "facility-248",
@@ -5193,7 +6177,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://gjpepsi.com/locations/",
-      "researchNotes": "Independent Pepsi bottler; G&J identifies production operations at these locations."
+      "researchNotes": "Independent Pepsi bottler; G&J identifies production operations at these locations.",
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "336 N 6TH ST, ZANESVILLE, OH, 43701"
     },
     {
       "id": "facility-249",
@@ -5214,7 +6202,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://gjpepsi.com/locations/",
-      "researchNotes": "Independent Pepsi bottler; G&J identifies production operations at these locations."
+      "researchNotes": "Independent Pepsi bottler; G&J identifies production operations at these locations.",
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "1241 GIBBARD AVE, COLUMBUS, OH, 43219"
     },
     {
       "id": "facility-250",
@@ -5235,7 +6227,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.wis-pak.com/facilities/",
-      "researchNotes": "Pepsi franchise cooperative filling plant."
+      "researchNotes": "Pepsi franchise cooperative filling plant.",
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "860 WEST ST, WATERTOWN, WI, 53094"
     },
     {
       "id": "facility-251",
@@ -5250,13 +6246,17 @@
       "stateProvince": "TN",
       "postalCode": "38024",
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 35.990446107832,
+      "longitude": -89.394241184782,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.wis-pak.com/facilities/",
-      "researchNotes": "Pepsi franchise cooperative filling plant."
+      "researchNotes": "Pepsi franchise cooperative filling plant.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Non-exact street match",
+      "coordinateNote": "2918 US HWY 51, DYERSBURG, TN, 38024"
     },
     {
       "id": "facility-252",
@@ -5277,7 +6277,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.wis-pak.com/facilities/",
-      "researchNotes": "Pepsi franchise cooperative filling plant."
+      "researchNotes": "Pepsi franchise cooperative filling plant.",
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "2 W L RUNNELS IND DR, HATTIESBURG, MS, 39401"
     },
     {
       "id": "facility-253",
@@ -5298,7 +6302,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.wis-pak.com/facilities/",
-      "researchNotes": "Pepsi franchise cooperative filling plant."
+      "researchNotes": "Pepsi franchise cooperative filling plant.",
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "3239 AIRPORT DR, LA CROSSE, WI, 54603"
     },
     {
       "id": "facility-254",
@@ -5319,7 +6327,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.wis-pak.com/facilities/",
-      "researchNotes": "Pepsi franchise cooperative filling plant."
+      "researchNotes": "Pepsi franchise cooperative filling plant.",
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "1707 TOWER BLVD, NORTH MANKATO, MN, 56003"
     },
     {
       "id": "facility-255",
@@ -5340,7 +6352,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.wis-pak.com/facilities/",
-      "researchNotes": "Pepsi franchise cooperative filling plant."
+      "researchNotes": "Pepsi franchise cooperative filling plant.",
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "1400 TA HA ZOUKA RD, NORFOLK, NE, 68701"
     },
     {
       "id": "facility-256",
@@ -5361,7 +6377,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.wis-pak.com/facilities/",
-      "researchNotes": "Pepsi franchise cooperative filling plant."
+      "researchNotes": "Pepsi franchise cooperative filling plant.",
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "2400 N 30TH ST, QUINCY, IL, 62301"
     },
     {
       "id": "facility-257",
@@ -5382,7 +6402,11 @@
       "ace": null,
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.buffalorock.com/customers/",
-      "researchNotes": "Independent Pepsi bottler. Buffalo Rock says more than half of its beverages are produced at its Birmingham facility, which handles syrup production, manufacturing, bottling and canning."
+      "researchNotes": "Independent Pepsi bottler. Buffalo Rock says more than half of its beverages are produced at its Birmingham facility, which handles syrup production, manufacturing, bottling and canning.",
+      "coordinateStatus": "Added",
+      "coordinateMethod": "U.S. Census Geocoder, benchmark 4",
+      "coordinateQuality": "Exact address match",
+      "coordinateNote": "800 LAKESHORE PKWY, BIRMINGHAM, AL, 35211"
     },
     {
       "id": "facility-258",
@@ -5397,13 +6421,17 @@
       "stateProvince": "GA",
       "postalCode": null,
       "country": "United States",
-      "latitude": null,
-      "longitude": null,
-      "mapped": false,
+      "latitude": 33.80816,
+      "longitude": -84.1702,
+      "mapped": true,
       "ace": null,
       "verificationStatus": "Verified production city - street address pending",
       "sourceUrl": "https://www.pepsico.com/",
-      "researchNotes": "PepsiCo-operated beverage plant; exact street address to verify."
+      "researchNotes": "PepsiCo-operated beverage plant; exact street address to verify.",
+      "coordinateStatus": "Added — approximate",
+      "coordinateMethod": "GeoNames city/place centroid (CC BY 4.0)",
+      "coordinateQuality": "City-center fallback",
+      "coordinateNote": "Stone Mountain, Georgia; GeoNames ID 4224745"
     }
   ]
 }
