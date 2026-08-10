@@ -2,7 +2,7 @@
   "metadata": {
     "sourceFile": "Strategic_End_User_Facilities_Bottler_Expansion_v2.xlsx",
     "sourceSheet": "Master Facilities v2",
-    "generatedAt": "2026-08-10T17:15:24-04:00",
+    "generatedAt": "2026-08-10T17:21:28-04:00",
     "totalRecords": 257,
     "mappedRecords": 256,
     "unmappedRecords": 1
@@ -5374,7 +5374,7 @@
       "latitude": 44.004893987001,
       "longitude": -116.921694796566,
       "mapped": true,
-      "ace": "Midwest",
+      "ace": "West",
       "verificationStatus": "Verified - official source",
       "sourceUrl": "https://www.swirecc.com/locations",
       "researchNotes": "Independent Coca-Cola bottler production plant.",
