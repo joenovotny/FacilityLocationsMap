@@ -1,4 +1,4 @@
-const DATA_URL = "data/facilities.json";
+const DATA_URL = "data/facilities.json?v=20260817-bakery-audit";
 const LOGO_URL = "data/account-logos.json";
 const PALETTE = ["#0067a8", "#f15a24", "#00a7d3", "#6f2c91", "#658d1b", "#c83e4d", "#1d7874", "#a65f00", "#4656a6", "#8b5e3c"];
 
@@ -205,7 +205,10 @@ function initializeMap() {
 
 async function start() {
   try {
-    const [dataResponse, logosResponse] = await Promise.all([fetch(DATA_URL), fetch(LOGO_URL)]);
+    const [dataResponse, logosResponse] = await Promise.all([
+      fetch(DATA_URL, { cache: "no-store" }),
+      fetch(LOGO_URL),
+    ]);
     if (!dataResponse.ok) throw new Error(`Facility data failed to load (${dataResponse.status})`);
     const data = await dataResponse.json();
     state.logos = logosResponse.ok ? await logosResponse.json() : {};
