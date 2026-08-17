@@ -8,7 +8,7 @@ The Excel workbook remains the master dataset. Replace the workbook in `source-d
 
 ```bash
 python3 -m pip install -r requirements.txt
-python3 scripts/convert_excel.py source-data/Strategic_End_User_Facilities_Bottler_Expansion_v2.xlsx
+python3 scripts/convert_excel.py source-data/Strategic_End_User_Facilities_Bottler_Expansion_V3.xlsx
 ```
 
 The converter reads `Master Facilities v2`, validates the required columns, and writes `data/facilities.json`. A facility is marked `mapped: true` only when both master latitude and longitude are present, numeric, and in valid ranges. Coordinates may be exact address matches, non-exact street matches, official city-level points, or GeoNames city-center fallbacks; the `Coordinate Audit` sheet records the method and quality for every row. Shared city-center pins are spread slightly in the web display so each facility remains clickable, without changing the stored Excel coordinates.
